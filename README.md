@@ -7,7 +7,8 @@
 Para la solución del problema decidimos usar un paquete de ROS2 que crease un nodo tipo publisher, el cual publica un mensaje  un tópico dado en base a los comandos recibidos desde el joystick. Una vez el nodo envía los mensajes con el formato correcto podemos configurar otro nodo que este suscrito a ese  tópico y mueva una simulación en coppelia usando los comandos recibidos. De la misma forma para mover el robot físico se utiliza el paquete de dynamixel sdk para crear un segundo nodo suscrito al tópico y enviarle las mismas instrucciones de comando
 
 ## Diagrama de flujo de las acciones del robot.
-
+```mermaid
+  flowchart TD
     A(Inicio) --> B(Seleccionar Modo \n(Auto/Manual))
     B -->|Automático| C(Modo Automático)
     B -->|Manual| D(Modo Manual)
@@ -25,7 +26,7 @@ Para la solución del problema decidimos usar un paquete de ROS2 que crease un n
     K --> L(Ejecutar en Máquina Remota)
     L --> M(Visualización de Cámara)
     M --> N(Fin del proceso)
-
+```
 ### Plano de planta y descripción de la teleoperación.
 ### Código en Matlab o Python de la solución.
 ### Comparación objetiva de la teleoperación manual y automática realizada los robots.
