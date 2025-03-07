@@ -8,24 +8,11 @@ Para la solución del problema decidimos usar un paquete de ROS2 que crease un n
 
 ## Diagrama de flujo de las acciones del robot.
 ```mermaid
-  flowchart TD
-    A(Inicio) --> B(Seleccionar Modo (Auto/Manual))
-    B -->|Automático| C(Modo Automático)
-    B -->|Manual| D(Modo Manual)
-    
-    C --> E(Seleccionar trayectoria)
-    E --> F(Ejecutar rutina preprogramada)
-    F --> G(Visualizar en GUI)
-    
-    D --> H(Control con Joystick)
-    H --> I(Modificar posición y orientación)
-    I --> J(Abrir/Cerrar gripper)
-    
-    G --> K(Enviar comandos por LAN)
-    J --> K
-    K --> L(Ejecutar en Máquina Remota)
-    L --> M(Visualización de Cámara)
-    M --> N(Fin del proceso)
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 ```
 ### Plano de planta y descripción de la teleoperación.
 ### Código en Matlab o Python de la solución.
