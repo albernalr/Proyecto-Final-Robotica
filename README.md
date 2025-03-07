@@ -12,12 +12,15 @@ flowchart TD
     A(Inicio) --> B(Seleccionar Modo \n(Auto/Manual))
     B -->|Automático| C(Modo Automático)
     B -->|Manual| D(Modo Manual)
+    
     C --> E(Seleccionar trayectoria)
     E --> F(Ejecutar rutina preprogramada)
     F --> G(Visualizar en GUI)
+    
     D --> H(Control con Joystick)
     H --> I(Modificar posición y orientación)
     I --> J(Abrir/Cerrar gripper)
+    
     G --> K(Enviar comandos por LAN)
     J --> K
     K --> L(Ejecutar en Máquina Remota)
