@@ -8,8 +8,9 @@ Para la solución del problema decidimos usar un paquete de ROS2 que crease un n
 
 ## Diagrama de flujo de las acciones del robot.
 ```mermaid
-graph TD
-    A(Inicio) --> B(Seleccionar Modo \n(Auto/Manual))
+flowchart TD
+    A(Inicio) --> B((Auto/Manual))
+
     B -->|Automático| C(Modo Automático)
     B -->|Manual| D(Modo Manual)
     
