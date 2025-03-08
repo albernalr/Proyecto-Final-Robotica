@@ -179,11 +179,11 @@ phi = 45
 Estas coordenadas pasan por la cinemática inversa y se obtienen los grados en radianes que usará cada una de las articulaciones. Cada vez que se ejecuta el nodo con la función *callback*, se suman o restan los valores de la posición de los análogos (esta posición varía de -1 a 1).
 
 ### Asignación de Controles:
-Markup: - **Eje X de la palanca izquierda**: controla la coordenada X del efector final.
-        - **Eje Y de la palanca izquierda**: controla la coordenada Y.
-        - **Eje Y de la palanca derecha**: controla la coordenada Z.
-        - **Botones X e Y**: controlan el ángulo phi.
-        - **Botones A y B**: controlan el motor 5 para abrir y cerrar el efector final.
+- **Eje X de la palanca izquierda**: controla la coordenada X del efector final.
+- **Eje Y de la palanca izquierda**: controla la coordenada Y.
+- **Eje Y de la palanca derecha**: controla la coordenada Z.
+- **Botones X e Y**: controlan el ángulo phi.
+- **Botones A y B**: controlan el motor 5 para abrir y cerrar el efector final.
 
 El control se realiza mediante posición y cinemática inversa, pero dado que el incremento en cada coordenada depende de la inclinación de la palanca del mando, se puede decir que la velocidad del efector final varía en función de esta inclinación.
 
@@ -284,10 +284,10 @@ flowchart TD
 ```
 ### Plano de planta y descripción de la teleoperación.
 
- Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
+ Markup :* Bullet list
+           * Nested bullet
+              * Sub-nested bullet etc
+        * Bullet list item 2
 
 ### Código en Matlab o Python de la solución.
 
