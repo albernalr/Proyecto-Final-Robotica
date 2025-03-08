@@ -136,6 +136,10 @@ def inverse_kinematics(X, Y, Z, phi):
 ```
 ## Descripción de la solución creada, el proceso de preparación y programación (hay que ser detallado, podemos usar los vídeos del whatsapp en esta parte).
 
+
+https://github.com/user-attachments/assets/198407e0-7608-4cc1-aa88-9356826e7707
+
+
 ## Control y Simulación del PhantomX con ROS2
 
 ### Descripción
