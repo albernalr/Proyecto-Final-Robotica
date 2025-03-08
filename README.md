@@ -75,7 +75,64 @@ end
 ```
 Posteriormente se convirtio a python para poder correrlo directamente sobre el nodo:
 ```
-
+def inverse_kinematics(X, Y, Z, phi):
+    # Longitudes de los eslabones
+    a0 = 0.137
+    a1 = 0.105
+    a2 = 0.105
+    a3 = 0.110
+    
+    phi1 = np.deg2rad(phi)
+    phi1 = -phi1
+    
+    # Ángulo base
+    theta_0 = np.arctan2(Y, X)
+    
+    # Proyección en el plano XY
+    xb = np.sqrt(X**2 + Y**2)
+    yb = Z - a0
+    
+    xa = xb - a3 * np.cos(phi1)
+    ya = yb - a3 * np.sin(phi1)
+    
+    D = np.sqrt(xa**2 + ya**2)
+    
+    # Verificar alcanzabilidad
+    if D > (a1 + a2) or D < abs(a1 - a2):
+        raise ValueError("Posición no alcanzable")
+    
+    cos_theta2 = (D**2 - a1**2 - a2**2) / (2 * a1 * a2)
+    theta_2 = np.arccos(cos_theta2)
+    theta_2_alt = -theta_2
+    
+    # Calcular ángulos theta1
+    alpha = np.arctan2(ya, xa)
+    beta = np.arctan2(a2 * np.sin(theta_2), a1 + a2 * np.cos(theta_2))
+    theta_1 = alpha - beta + np.deg2rad(90)
+    
+    beta_alt = np.arctan2(a2 * np.sin(theta_2_alt), a1 + a2 * np.cos(theta_2_alt))
+    theta_1_alt = alpha - beta_alt
+    
+    # Calcular theta3
+    theta_3 = phi1 - theta_1 - theta_2
+    theta_3_alt = phi1 - theta_1_alt - theta_2_alt
+    
+    # Convertir a grados
+    theta_0 = np.rad2deg(theta_0)
+    theta_1 = np.rad2deg(theta_1_alt) - 90
+    theta_2 = np.rad2deg(theta_2_alt)
+    theta_3 = np.rad2deg(theta_3_alt)
+    
+    theta_1 = -theta_1
+    theta_2 = -theta_2
+    theta_3 = -theta_3
+    
+    theta_0 = np.radians(theta_0)
+    theta_1 = np.radians(theta_1)
+    theta_2 = np.radians(theta_2)
+    theta_3 = np.radians(theta_3)
+    
+    return theta_0, theta_1, theta_2, theta_3
 ```
 ## Descripción de la solución creada, el proceso de preparación y programación (hay que ser detallado, podemos usar los vídeos del whatsapp en esta parte).
 
