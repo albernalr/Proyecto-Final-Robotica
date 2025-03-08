@@ -1,0 +1,57 @@
+[0.231s] Invoking command in '/home/alejandro/ros2_ws/build/phantom_description': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake /home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_description -DCMAKE_INSTALL_PREFIX=/home/alejandro/ros2_ws/install/phantom_description
+[0.241s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.241s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.242s]   CMake.
+[0.242s] 
+[0.242s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.242s]   to tell CMake that the project requires at least <min> but has been updated
+[0.242s]   to work with policies introduced by <max> or earlier.
+[0.242s] 
+[0.242s] [0m
+[0.953s] -- The C compiler identification is GNU 13.3.0
+[1.660s] -- The CXX compiler identification is GNU 13.3.0
+[1.675s] -- Detecting C compiler ABI info
+[1.802s] -- Detecting C compiler ABI info - done
+[1.849s] -- Check for working C compiler: /home/alejandro/.local/share/mamba/envs/ros_env/bin/x86_64-conda-linux-gnu-cc - skipped
+[1.849s] -- Detecting C compile features
+[1.850s] -- Detecting C compile features - done
+[1.868s] -- Detecting CXX compiler ABI info
+[2.018s] -- Detecting CXX compiler ABI info - done
+[2.062s] Invoked command in '/home/alejandro/ros2_ws/build/phantom_description' returned '-2': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake /home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_description -DCMAKE_INSTALL_PREFIX=/home/alejandro/ros2_ws/install/phantom_description
+[2.063s] Traceback (most recent call last):
+  File "/home/alejandro/.local/share/mamba/envs/ros_env/lib/python3.11/site-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute
+    loop.run_until_complete(future)
+  File "/home/alejandro/.local/share/mamba/envs/ros_env/lib/python3.11/asyncio/base_events.py", line 641, in run_until_complete
+    self.run_forever()
+  File "/home/alejandro/.local/share/mamba/envs/ros_env/lib/python3.11/asyncio/base_events.py", line 608, in run_forever
+    self._run_once()
+  File "/home/alejandro/.local/share/mamba/envs/ros_env/lib/python3.11/asyncio/base_events.py", line 1898, in _run_once
+    event_list = self._selector.select(timeout)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/.local/share/mamba/envs/ros_env/lib/python3.11/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alejandro/.local/share/mamba/envs/ros_env/lib/python3.11/site-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/.local/share/mamba/envs/ros_env/lib/python3.11/site-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/.local/share/mamba/envs/ros_env/lib/python3.11/site-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build
+    rc = await extension.build(
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/.local/share/mamba/envs/ros_env/lib/python3.11/site-packages/colcon_cmake/task/cmake/build.py", line 87, in build
+    rc = await self._reconfigure(args, env)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/.local/share/mamba/envs/ros_env/lib/python3.11/site-packages/colcon_cmake/task/cmake/build.py", line 182, in _reconfigure
+    buildfile = get_buildfile(cmake_cache)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alejandro/.local/share/mamba/envs/ros_env/lib/python3.11/site-packages/colcon_cmake/task/cmake/__init__.py", line 114, in get_buildfile
+    if 'Visual Studio' in generator:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
