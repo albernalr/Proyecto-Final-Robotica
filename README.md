@@ -75,7 +75,124 @@ end
 ```
 ## Descripción de la solución creada, el proceso de preparación y programación (hay que ser detallado, podemos usar los vídeos del whatsapp en esta parte).
 
-Para la solución del problema decidimos usar un paquete de ROS2 que crease un nodo tipo publisher, el cual publica un mensaje  un tópico dado en base a los comandos recibidos desde el joystick. Una vez el nodo envía los mensajes con el formato correcto podemos configurar otro nodo que este suscrito a ese  tópico y mueva una simulación en coppelia usando los comandos recibidos. De la misma forma para mover el robot físico se utiliza el paquete de dynamixel sdk para crear un segundo nodo suscrito al tópico y enviarle las mismas instrucciones de comando
+# Control y Simulación del PhantomX con ROS2
+
+## Descripción
+
+Este documento describe el proceso de configuración y control del robot PhantomX mediante ROS2, empleando un joystick para la teleoperación y la simulación en CoppeliaSim.
+
+## Creación del Nodo Joy
+
+Lo primero fue crear un nodo de `joy` para obtener las posiciones de los análogos del joystick en cada instante y poder mapear todos los botones del control escogido.
+
+### Instalación de Joy en ROS2 Linux
+
+Para instalar `joy` en ROS2 en un sistema Linux, se deben ejecutar los siguientes comandos:
+
+```bash
+sudo apt update
+sudo apt install ros-${ROS_DISTRO}-joy ros-${ROS_DISTRO}-joy-linux
+```
+
+Después de la instalación, se puede verificar su funcionamiento ejecutando:
+
+```bash
+ros2 run joy joy_node
+```
+
+## Nodo para Control y Cinemática Inversa
+
+Luego, se creó un nodo encargado de obtener las posiciones de los controles y publicar un tópico llamado `JointState` del tipo `/coppelia/joint_commands`.
+
+En este nodo también se incorporaron las ecuaciones de la cinemática inversa traducidas de MATLAB a Python luego de su verificación en simulaciones.
+
+El nodo coloca las articulaciones en una posición de *home* definida por las siguientes coordenadas:
+
+```plaintext
+X = 0
+Y = 0.12
+Z = 0.12
+phi = 45
+```
+
+Estas coordenadas pasan por la cinemática inversa y se obtienen los grados en radianes que usará cada una de las articulaciones. Cada vez que se ejecuta el nodo con la función *callback*, se suman o restan los valores de la posición de los análogos (esta posición varía de -1 a 1).
+
+### Asignación de Controles:
+- **Eje X de la palanca izquierda**: controla la coordenada X del efector final.
+- **Eje Y de la palanca izquierda**: controla la coordenada Y.
+- **Eje Y de la palanca derecha**: controla la coordenada Z.
+- **Botones X e Y**: controlan el ángulo phi.
+- **Botones A y B**: controlan el motor 5 para abrir y cerrar el efector final.
+
+El control se realiza mediante posición y cinemática inversa, pero dado que el incremento en cada coordenada depende de la inclinación de la palanca del mando, se puede decir que la velocidad del efector final varía en función de esta inclinación.
+
+## Nodo PhantomXController
+
+Una vez publicado el tópico con las posiciones de cada motor, se crea un nuevo nodo llamado `PhantomXController`, el cual se encarga de enviar los datos mediante la librería `Dynamixel SDK`.
+
+Este nodo se ejecuta en un segundo PC encargado de controlar directamente el robot. Para este nodo, se establecen los siguientes parámetros:
+
+### Configuración del puerto y baudrate
+```python
+DEVICENAME = "/dev/ttyUSB0"  # Ajusta según tu sistema
+BAUDRATE = 1000000  # 1 Mbps, recomendado para AX-12A
+```
+
+### Direcciones de memoria en los motores Dynamixel AX-12A
+```python
+ADDR_TORQUE_ENABLE = 24
+ADDR_GOAL_POSITION = 30
+ADDR_PRESENT_POSITION = 36
+ADDR_MOVING_SPEED = 32
+ADDR_TORQUE_LIMIT = 34
+```
+
+### Parámetros del motor
+```python
+DXL_IDs = [1, 2, 3, 4, 5]  # IDs de los motores del brazo
+TORQUE_ENABLE = 1  # Habilitar torque
+TORQUE_DISABLE = 0  # Deshabilitar torque
+MOVING_SPEED = {1: 40, 2: 40, 3: 40, 4: 40, 5: 1023}  # Velocidad del motor (0-1023)
+TORQUE_LIMITS = {1: 300, 2: 600, 3: 600, 4: 600, 5: 1023}  # Límite de torque para cada motor
+GOAL_POSITION_DEFAULT = {1: 1023, 2: 512, 3: 512, 4: 512, 5: 512}  # Posición inicial
+```
+
+En estos parámetros se establece el puerto, la velocidad en baudios, direcciones de memoria de cada uno de los registros, parámetros específicos para cada motor (se decidió usar torque y velocidades bajas) y una posición de *home* para verificación.
+
+El nodo comienza enviando todas las configuraciones iniciales a cada motor, lo cual se realiza mediante un identificador único de cada motor (*ID*), en este caso los números `1, 2, 3, 4 y 5`.
+
+También se agregaron verificaciones de conexión con el puerto y métodos para cerrar correctamente el nodo.
+
+## Simulación en CoppeliaSim
+
+CoppeliaSim se encarga de escuchar el mismo nodo y ejecutar la simulación en simultáneo. De esta manera, se obtiene una simulación en vivo que permite la teleoperación del PhantomX.
+
+## Rutina Automática con Bag Record
+
+Para establecer un modo automático en el nodo, se utilizó el comando `bag record` de ROS2, que permite grabar la publicación del tópico `joint_commands`. Para iniciar la grabación, se ejecuta el siguiente comando:
+
+### Uso del comando Bag Record en ROS2
+
+```bash
+ros2 bag record -o mi_grabacion /coppelia/joint_commands
+```
+
+Esto generará una grabación de las trayectorias realizadas con el mando. Posteriormente, para reproducir la grabación y repetir la rutina, se ejecuta:
+
+```bash
+ros2 bag play mi_grabacion
+```
+
+Al usar este comando, se emula el tópico grabado y los nodos de ROS2 lo escucharán como si fuera el original.
+
+Se realizaron tres grabaciones de diferentes rutinas, almacenadas en los archivos:
+- `joint_commands1`
+- `joint_commands2`
+- `joint_commands3`
+
+De esta manera, se facilita la reproducción de trayectorias previamente grabadas en el PhantomX.
+
+
 
 ![rosgraph](https://github.com/user-attachments/assets/b757cbc8-d9d6-4c83-b379-8fc9be861bd2)
 
