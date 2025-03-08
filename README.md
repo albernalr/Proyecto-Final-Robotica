@@ -104,6 +104,8 @@ flowchart TD
 ### Plano de planta y descripción de la teleoperación.
 ### Código en Matlab o Python de la solución.
 
+Implementación en Python de la solución al proyecto
+
 ```
 #!/usr/bin/env python3
 import rclpy
