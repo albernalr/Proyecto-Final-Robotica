@@ -1,0 +1,17 @@
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia//launch/bringup_launch.py
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia//scenes/spheres.ttt
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/ament_index/resource_index/package_run_dependencies/phantom_coppelia
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/ament_index/resource_index/parent_prefix_path/phantom_coppelia
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/environment/ament_prefix_path.sh
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/environment/ament_prefix_path.dsv
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/environment/path.sh
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/environment/path.dsv
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/local_setup.bash
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/local_setup.sh
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/local_setup.zsh
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/local_setup.dsv
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.dsv
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/ament_index/resource_index/packages/phantom_coppelia
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/cmake/phantom_coppeliaConfig.cmake
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/cmake/phantom_coppeliaConfig-version.cmake
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.xml

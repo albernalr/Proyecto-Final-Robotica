@@ -1,0 +1,16 @@
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/lib/phantom_vision/ball_finder
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/ament_index/resource_index/package_run_dependencies/phantom_vision
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/ament_index/resource_index/parent_prefix_path/phantom_vision
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/environment/ament_prefix_path.sh
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/environment/ament_prefix_path.dsv
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/environment/path.sh
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/environment/path.dsv
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/local_setup.bash
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/local_setup.sh
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/local_setup.zsh
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/local_setup.dsv
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/package.dsv
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/ament_index/resource_index/packages/phantom_vision
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/cmake/phantom_visionConfig.cmake
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/cmake/phantom_visionConfig-version.cmake
+/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/package.xml

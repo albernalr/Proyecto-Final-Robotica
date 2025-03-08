@@ -1,0 +1,61 @@
+[0.015s] Invoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake /home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_vision -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision
+[0.033s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.033s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.033s]   CMake.
+[0.033s] 
+[0.033s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.033s]   to tell CMake that the project requires at least <min> but has been updated
+[0.033s]   to work with policies introduced by <max> or earlier.
+[0.033s] 
+[0.033s] [0m
+[0.145s] -- The C compiler identification is GNU 13.3.0
+[0.311s] -- The CXX compiler identification is GNU 13.3.0
+[0.333s] -- Detecting C compiler ABI info
+[0.467s] -- Detecting C compiler ABI info - done
+[0.501s] -- Check for working C compiler: /home/alejandro/.local/share/mamba/envs/ros_env/bin/x86_64-conda-linux-gnu-cc - skipped
+[0.501s] -- Detecting C compile features
+[0.502s] -- Detecting C compile features - done
+[0.513s] -- Detecting CXX compiler ABI info
+[0.675s] -- Detecting CXX compiler ABI info - done
+[0.730s] -- Check for working CXX compiler: /home/alejandro/.local/share/mamba/envs/ros_env/bin/x86_64-conda-linux-gnu-c++ - skipped
+[0.731s] -- Detecting CXX compile features
+[0.731s] -- Detecting CXX compile features - done
+[0.739s] -- Found ament_cmake: 1.3.11 (/home/alejandro/.local/share/mamba/envs/ros_env/share/ament_cmake/cmake)
+[0.920s] -- Found Python3: /home/alejandro/.local/share/mamba/envs/ros_env/bin/python3 (found version "3.11.11") found components: Interpreter
+[1.018s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.071s] -- Found std_msgs: 4.2.4 (/home/alejandro/.local/share/mamba/envs/ros_env/share/std_msgs/cmake)
+[1.150s] -- Found rosidl_generator_c: 3.1.6 (/home/alejandro/.local/share/mamba/envs/ros_env/share/rosidl_generator_c/cmake)
+[1.160s] -- Found rosidl_adapter: 3.1.6 (/home/alejandro/.local/share/mamba/envs/ros_env/share/rosidl_adapter/cmake)
+[1.173s] -- Found rosidl_generator_cpp: 3.1.6 (/home/alejandro/.local/share/mamba/envs/ros_env/share/rosidl_generator_cpp/cmake)
+[1.206s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.262s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.320s] -- Found sensor_msgs: 4.2.4 (/home/alejandro/.local/share/mamba/envs/ros_env/share/sensor_msgs/cmake)
+[1.400s] -- Found rclcpp: 16.0.11 (/home/alejandro/.local/share/mamba/envs/ros_env/share/rclcpp/cmake)
+[1.524s] -- Checking for module 'yaml-0.1'
+[1.633s] --   Found yaml-0.1, version 0.2.5
+[1.869s] -- Found rmw_implementation_cmake: 6.1.2 (/home/alejandro/.local/share/mamba/envs/ros_env/share/rmw_implementation_cmake/cmake)
+[1.878s] -- Found rmw_fastrtps_cpp: 6.2.7 (/home/alejandro/.local/share/mamba/envs/ros_env/share/rmw_fastrtps_cpp/cmake)
+[2.390s] -- Found OpenSSL: /home/alejandro/.local/share/mamba/envs/ros_env/lib/libcrypto.so (found version "3.4.1")
+[2.436s] -- Found FastRTPS: /home/alejandro/.local/share/mamba/envs/ros_env/include
+[2.514s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.556s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.662s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.662s] -- Looking for pthread_create in pthreads
+[2.731s] -- Looking for pthread_create in pthreads - not found
+[2.731s] -- Looking for pthread_create in pthread
+[2.849s] -- Looking for pthread_create in pthread - found
+[2.850s] -- Found Threads: TRUE
+[2.970s] -- Found cv_bridge: 3.2.1 (/home/alejandro/.local/share/mamba/envs/ros_env/share/cv_bridge/cmake)
+[3.013s] -- Found image_transport: 3.1.10 (/home/alejandro/.local/share/mamba/envs/ros_env/share/image_transport/cmake)
+[3.079s] -- Found OpenCV: /home/alejandro/.local/share/mamba/envs/ros_env (found version "4.10.0")
+[3.083s] -- Found ament_lint_auto: 0.12.11 (/home/alejandro/.local/share/mamba/envs/ros_env/share/ament_lint_auto/cmake)
+[3.215s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.215s] -- Configured cppcheck include dirs: 
+[3.215s] -- Configured cppcheck exclude dirs and/or files: 
+[3.216s] -- Added test 'lint_cmake' to check CMake code style
+[3.216s] -- Added test 'uncrustify' to check C / C++ code style
+[3.216s] -- Configured uncrustify additional arguments: 
+[3.217s] -- Added test 'xmllint' to check XML markup files
+[3.218s] -- Configuring done (3.2s)
+[3.232s] -- Generating done (0.0s)
+[3.233s] -- Build files have been written to: /home/alejandro/ros2_ws/phantom_ws/build/phantom_vision

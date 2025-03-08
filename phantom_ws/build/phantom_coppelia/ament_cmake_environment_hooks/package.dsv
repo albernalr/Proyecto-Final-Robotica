@@ -1,0 +1,4 @@
+source;share/phantom_coppelia/local_setup.bash
+source;share/phantom_coppelia/local_setup.dsv
+source;share/phantom_coppelia/local_setup.sh
+source;share/phantom_coppelia/local_setup.zsh

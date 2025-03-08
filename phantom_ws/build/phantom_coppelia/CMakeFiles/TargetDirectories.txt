@@ -1,0 +1,9 @@
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia/CMakeFiles/uninstall.dir
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia/CMakeFiles/phantom_coppelia_uninstall.dir
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia/CMakeFiles/test.dir
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia/CMakeFiles/edit_cache.dir
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia/CMakeFiles/rebuild_cache.dir
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia/CMakeFiles/list_install_components.dir
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia/CMakeFiles/install.dir
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia/CMakeFiles/install/local.dir
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia/CMakeFiles/install/strip.dir

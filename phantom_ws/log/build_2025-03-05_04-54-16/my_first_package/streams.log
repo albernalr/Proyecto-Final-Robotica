@@ -1,0 +1,43 @@
+[1.033s] Invoking command in '/home/alejandro/ros2_ws/phantom_ws/src/phantom_ex/my_first_package': CONDA_PROMPT_MODIFIER=(ros_env) PYTHONPATH=/home/alejandro/ros2_ws/phantom_ws/build/my_first_package/prefix_override:/home/alejandro/.local/share/mamba/envs/ros_env/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandro/ros2_ws/phantom_ws/install/my_first_package/lib/python3.11/site-packages:${PYTHONPATH} /home/alejandro/.local/share/mamba/envs/ros_env/bin/python3.11 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/my_first_package build --build-base /home/alejandro/ros2_ws/phantom_ws/build/my_first_package/build install --record /home/alejandro/ros2_ws/phantom_ws/build/my_first_package/install.log --single-version-externally-managed install_data
+[1.159s] /home/alejandro/.local/share/mamba/envs/ros_env/lib/python3.11/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[1.159s]   warnings.warn(msg)
+[1.222s] running egg_info
+[1.233s] creating ../../../build/my_first_package/my_first_package.egg-info
+[1.233s] writing ../../../build/my_first_package/my_first_package.egg-info/PKG-INFO
+[1.234s] writing dependency_links to ../../../build/my_first_package/my_first_package.egg-info/dependency_links.txt
+[1.234s] writing entry points to ../../../build/my_first_package/my_first_package.egg-info/entry_points.txt
+[1.234s] writing requirements to ../../../build/my_first_package/my_first_package.egg-info/requires.txt
+[1.234s] writing top-level names to ../../../build/my_first_package/my_first_package.egg-info/top_level.txt
+[1.234s] writing manifest file '../../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[1.255s] reading manifest file '../../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[1.255s] writing manifest file '../../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[1.256s] running build
+[1.256s] running build_py
+[1.256s] creating /home/alejandro/ros2_ws/phantom_ws/build/my_first_package/build/lib/my_first_package
+[1.256s] copying my_first_package/PhantomXController.py -> /home/alejandro/ros2_ws/phantom_ws/build/my_first_package/build/lib/my_first_package
+[1.256s] copying my_first_package/my_node.py -> /home/alejandro/ros2_ws/phantom_ws/build/my_first_package/build/lib/my_first_package
+[1.256s] copying my_first_package/xbox_controller_reader.py -> /home/alejandro/ros2_ws/phantom_ws/build/my_first_package/build/lib/my_first_package
+[1.256s] copying my_first_package/__init__.py -> /home/alejandro/ros2_ws/phantom_ws/build/my_first_package/build/lib/my_first_package
+[1.257s] running install
+[1.262s] running install_lib
+[1.272s] creating /home/alejandro/ros2_ws/phantom_ws/install/my_first_package/lib/python3.11/site-packages/my_first_package
+[1.272s] copying /home/alejandro/ros2_ws/phantom_ws/build/my_first_package/build/lib/my_first_package/PhantomXController.py -> /home/alejandro/ros2_ws/phantom_ws/install/my_first_package/lib/python3.11/site-packages/my_first_package
+[1.272s] copying /home/alejandro/ros2_ws/phantom_ws/build/my_first_package/build/lib/my_first_package/my_node.py -> /home/alejandro/ros2_ws/phantom_ws/install/my_first_package/lib/python3.11/site-packages/my_first_package
+[1.272s] copying /home/alejandro/ros2_ws/phantom_ws/build/my_first_package/build/lib/my_first_package/xbox_controller_reader.py -> /home/alejandro/ros2_ws/phantom_ws/install/my_first_package/lib/python3.11/site-packages/my_first_package
+[1.272s] copying /home/alejandro/ros2_ws/phantom_ws/build/my_first_package/build/lib/my_first_package/__init__.py -> /home/alejandro/ros2_ws/phantom_ws/install/my_first_package/lib/python3.11/site-packages/my_first_package
+[1.273s] byte-compiling /home/alejandro/ros2_ws/phantom_ws/install/my_first_package/lib/python3.11/site-packages/my_first_package/PhantomXController.py to PhantomXController.cpython-311.pyc
+[1.274s] byte-compiling /home/alejandro/ros2_ws/phantom_ws/install/my_first_package/lib/python3.11/site-packages/my_first_package/my_node.py to my_node.cpython-311.pyc
+[1.274s] byte-compiling /home/alejandro/ros2_ws/phantom_ws/install/my_first_package/lib/python3.11/site-packages/my_first_package/xbox_controller_reader.py to xbox_controller_reader.cpython-311.pyc
+[1.275s] byte-compiling /home/alejandro/ros2_ws/phantom_ws/install/my_first_package/lib/python3.11/site-packages/my_first_package/__init__.py to __init__.cpython-311.pyc
+[1.275s] running install_data
+[1.275s] creating /home/alejandro/ros2_ws/phantom_ws/install/my_first_package/share/ament_index/resource_index/packages
+[1.276s] copying resource/my_first_package -> /home/alejandro/ros2_ws/phantom_ws/install/my_first_package/share/ament_index/resource_index/packages
+[1.276s] copying package.xml -> /home/alejandro/ros2_ws/phantom_ws/install/my_first_package/share/my_first_package
+[1.276s] running install_egg_info
+[1.286s] Copying ../../../build/my_first_package/my_first_package.egg-info to /home/alejandro/ros2_ws/phantom_ws/install/my_first_package/lib/python3.11/site-packages/my_first_package-0.0.0-py3.11.egg-info
+[1.287s] running install_scripts
+[1.349s] Installing dynamixel script to /home/alejandro/ros2_ws/phantom_ws/install/my_first_package/lib/my_first_package
+[1.350s] Installing my_node script to /home/alejandro/ros2_ws/phantom_ws/install/my_first_package/lib/my_first_package
+[1.350s] Installing reader script to /home/alejandro/ros2_ws/phantom_ws/install/my_first_package/lib/my_first_package
+[1.350s] writing list of installed files to '/home/alejandro/ros2_ws/phantom_ws/build/my_first_package/install.log'
+[1.375s] Invoked command in '/home/alejandro/ros2_ws/phantom_ws/src/phantom_ex/my_first_package' returned '0': CONDA_PROMPT_MODIFIER=(ros_env) PYTHONPATH=/home/alejandro/ros2_ws/phantom_ws/build/my_first_package/prefix_override:/home/alejandro/.local/share/mamba/envs/ros_env/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandro/ros2_ws/phantom_ws/install/my_first_package/lib/python3.11/site-packages:${PYTHONPATH} /home/alejandro/.local/share/mamba/envs/ros_env/bin/python3.11 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/my_first_package build --build-base /home/alejandro/ros2_ws/phantom_ws/build/my_first_package/build install --record /home/alejandro/ros2_ws/phantom_ws/build/my_first_package/install.log --single-version-externally-managed install_data

@@ -1,0 +1,42 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[33mCMake Warning at CMakeLists.txt:30 (add_library):
+  Cannot generate a safe runtime search path for target phantom_control
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libconsole_bridge.so.1.0] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+      /usr/lib/x86_64-linux-gnu
+
+  Some of these libraries may not be found correctly.
+
+[0m
+[01m[K/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control/hardware/phantom_pincher_system.cpp:[m[K In member function '[01m[Kvirtual phantom_control::CallbackReturn phantom_control::PhantomPincherSystem::[01;32m[Kon_configure[m[K(const rclcpp_lifecycle::State&)[m[K':
+[01m[K/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control/hardware/phantom_pincher_system.cpp:239:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: '[01m[Kint[m[K' and '[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K' {aka '[01m[Klong unsigned int[m[K'} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  239 |   for(int i = 0; [01;35m[Ki < joint_states_[POSITION_INTERFACE_INDEX].size()[m[K; i++){
+      |                  [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control/hardware/phantom_pincher_system.cpp:175:82:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kprevious_state[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  175 | CallbackReturn PhantomPincherSystem::on_configure([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K){
+      |                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control/hardware/phantom_pincher_system.cpp:[m[K In member function '[01m[Kvirtual hardware_interface::return_type phantom_control::PhantomPincherSystem::[01;32m[Kread[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K':
+[01m[K/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control/hardware/phantom_pincher_system.cpp:315:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: '[01m[Kint[m[K' and '[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K' {aka '[01m[Klong unsigned int[m[K'} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  315 |   for(int i = 0; [01;35m[Ki < joint_states_[POSITION_INTERFACE_INDEX].size()[m[K; i++){
+      |                  [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control/hardware/phantom_pincher_system.cpp:[m[K In member function '[01m[Kvirtual hardware_interface::return_type phantom_control::PhantomPincherSystem::[01;32m[Kwrite[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K':
+[01m[K/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control/hardware/phantom_pincher_system.cpp:403:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: '[01m[Kint[m[K' and '[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K' {aka '[01m[Klong unsigned int[m[K'} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  403 |   for(int i = 0; [01;35m[Ki < joint_commands_[POSITION_INTERFACE_INDEX].size()[m[K; i++){
+      |                  [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control/hardware/phantom_pincher_system.cpp:404:11:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kcmd[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  404 |     float [01;35m[Kcmd[m[K = joint_commands_[POSITION_INTERFACE_INDEX][i] * (180.0f / 3.14f) * 1.0f / 0.087891f;
+      |           [01;35m[K^~~[m[K
+[01m[K/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control/hardware/phantom_pincher_system.cpp:[m[K At global scope:
+[01m[K/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control/hardware/phantom_pincher_system.cpp:30:6:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid {anonymous}::[01;32m[KsumRotationFromMinus2PiTo2Pi[m[K(double, double&)[m[K' defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+   30 | void [01;35m[KsumRotationFromMinus2PiTo2Pi[m[K(const double current_wrapped_rad, double& total_rotation)
+      |      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

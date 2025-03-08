@@ -1,0 +1,20 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[33mCMake Warning at CMakeLists.txt:30 (add_library):
+  Cannot generate a safe runtime search path for target phantom_control
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libconsole_bridge.so.1.0] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+      /usr/lib/x86_64-linux-gnu
+
+  Some of these libraries may not be found correctly.
+
+[0m

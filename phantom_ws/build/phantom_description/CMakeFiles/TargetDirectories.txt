@@ -1,0 +1,9 @@
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_description/CMakeFiles/uninstall.dir
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_description/CMakeFiles/phantom_description_uninstall.dir
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_description/CMakeFiles/test.dir
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_description/CMakeFiles/edit_cache.dir
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_description/CMakeFiles/rebuild_cache.dir
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_description/CMakeFiles/list_install_components.dir
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_description/CMakeFiles/install.dir
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_description/CMakeFiles/install/local.dir
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_description/CMakeFiles/install/strip.dir

@@ -1,0 +1,41 @@
+[100%] Built target phantom_control
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//phantom_control.xml
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//pincher_control.xml
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/include/phantom_control/phantom_control/phantom_pincher_system.hpp
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/include/phantom_control/phantom_control/topic_based_system.hpp
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//launch/bringup_launch.py
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//launch/physical_launch.py
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//launch/px100_bringup_launch.py
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//config/coppelia_rgb_depth_rviz.rviz
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//config/phantom_controllers.yaml
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//config/px100_controllers.yaml
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//hardware/include/phantom_control/phantom_pincher_system.hpp
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//hardware/include/phantom_control/topic_based_system.hpp
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//hardware/phantom_pincher_system.cpp
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//hardware/topic_based_system.cpp
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//rviz/broadcaster_viz.rviz
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//description/phantom.ros2_control.xacro
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//description/physical_phantom.ros2_control.xacro
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//description/px100.urdf.xacro
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//description/ros2_control/px100.ros2_control.xacro
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/ament_index/resource_index/package_run_dependencies/phantom_control
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/ament_index/resource_index/parent_prefix_path/phantom_control
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/environment/path.sh
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/environment/path.dsv
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/local_setup.bash
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/local_setup.sh
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/local_setup.zsh
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/local_setup.dsv
+-- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/package.dsv
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/ament_index/resource_index/packages/phantom_control
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/phantom_control
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/cmake/phantom_controlConfig.cmake
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/cmake/phantom_controlConfig-version.cmake
+-- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/package.xml
+-- Installing: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/lib/libphantom_control.so
+-- Set non-toolchain portion of runtime path of "/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/lib/libphantom_control.so" to ""

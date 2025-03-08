@@ -1,0 +1,53 @@
+[0.926s] Invoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/ros2_ws/phantom_ws/install/my_first_package CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --build /home/alejandro/ros2_ws/phantom_ws/build/phantom_description -- -j8 -l8
+[1.096s] Invoked command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/ros2_ws/phantom_ws/install/my_first_package CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --build /home/alejandro/ros2_ws/phantom_ws/build/phantom_description -- -j8 -l8
+[1.270s] Invoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/ros2_ws/phantom_ws/install/my_first_package CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --install /home/alejandro/ros2_ws/phantom_ws/build/phantom_description
+[1.308s] -- Install configuration: ""
+[1.313s] -- Execute custom install script
+[1.316s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//launch/viz_launch.py
+[1.317s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//urdf/arm_hardware.xacro
+[1.317s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//urdf/pincher_arm.urdf
+[1.318s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//urdf/pincher_arm.urdf.xacro
+[1.319s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//urdf/pincher_gripper.xacro
+[1.319s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//urdf/px100/px100.urdf.xacro
+[1.320s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//urdf/turtlebot_arm.urdf
+[1.320s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//urdf/turtlebot_arm.urdf.xacro
+[1.321s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//urdf/turtlebot_arm.xacro
+[1.321s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//urdf/turtlebot_gripper.xacro
+[1.323s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//config/a.rviz
+[1.323s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//config/rviz_px100.rviz
+[1.326s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//meshes/interbotix_black.png
+[1.327s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//meshes/px_100/px100_1_base.stl
+[1.328s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//meshes/px_100/px100_2_shoulder.stl
+[1.329s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//meshes/px_100/px100_3_upper_arm.stl
+[1.330s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//meshes/px_100/px100_4_forearm.stl
+[1.331s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//meshes/px_100/px100_5_gripper.stl
+[1.332s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//meshes/px_100/px100_6_gripper_prop.stl
+[1.333s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//meshes/px_100/px100_7_gripper_bar.stl
+[1.335s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//meshes/px_100/px100_8_gripper_finger.stl
+[1.335s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//meshes/px_100/px100_9_ar_tag.stl
+[1.336s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//meshes/turtle_bot/F10.stl
+[1.337s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//meshes/turtle_bot/F2.stl
+[1.340s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//meshes/turtle_bot/F3.stl
+[1.341s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//meshes/turtle_bot/F4.stl
+[1.341s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//meshes/turtle_bot/README
+[1.342s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//meshes/turtle_bot/ax12_box.stl
+[1.343s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//meshes/turtle_bot/mount.stl
+[1.344s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//meshes/turtle_bot/pincher_finger.stl
+[1.345s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//meshes/turtle_bot/pincher_finger_base.stl
+[1.345s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description//meshes/turtle_bot/turtlebot_finger.stl
+[1.348s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/ament_index/resource_index/package_run_dependencies/phantom_description
+[1.349s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/ament_index/resource_index/parent_prefix_path/phantom_description
+[1.350s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/environment/ament_prefix_path.sh
+[1.352s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/environment/ament_prefix_path.dsv
+[1.355s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/environment/path.sh
+[1.357s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/environment/path.dsv
+[1.357s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/local_setup.bash
+[1.360s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/local_setup.sh
+[1.361s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/local_setup.zsh
+[1.362s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/local_setup.dsv
+[1.363s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/package.dsv
+[1.406s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/ament_index/resource_index/packages/phantom_description
+[1.411s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/cmake/phantom_descriptionConfig.cmake
+[1.412s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/cmake/phantom_descriptionConfig-version.cmake
+[1.413s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/package.xml
+[1.472s] Invoked command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/ros2_ws/phantom_ws/install/my_first_package CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --install /home/alejandro/ros2_ws/phantom_ws/build/phantom_description

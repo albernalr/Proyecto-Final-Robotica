@@ -1,0 +1,10 @@
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision/CMakeFiles/uninstall.dir
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision/CMakeFiles/phantom_vision_uninstall.dir
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision/CMakeFiles/ball_finder.dir
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision/CMakeFiles/test.dir
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision/CMakeFiles/edit_cache.dir
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision/CMakeFiles/rebuild_cache.dir
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision/CMakeFiles/list_install_components.dir
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision/CMakeFiles/install.dir
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision/CMakeFiles/install/local.dir
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision/CMakeFiles/install/strip.dir

@@ -1,0 +1,23 @@
+[1.340s] Invoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/ros2_ws/phantom_ws/install/my_first_package CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --build /home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia -- -j8 -l8
+[1.575s] Invoked command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/ros2_ws/phantom_ws/install/my_first_package CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --build /home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia -- -j8 -l8
+[1.810s] Invoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/ros2_ws/phantom_ws/install/my_first_package CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --install /home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia
+[1.875s] -- Install configuration: ""
+[1.899s] -- Execute custom install script
+[1.900s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia//launch/bringup_launch.py
+[1.901s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia//scenes/spheres.ttt
+[1.902s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/ament_index/resource_index/package_run_dependencies/phantom_coppelia
+[1.903s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/ament_index/resource_index/parent_prefix_path/phantom_coppelia
+[1.903s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/environment/ament_prefix_path.sh
+[1.904s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/environment/ament_prefix_path.dsv
+[1.905s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/environment/path.sh
+[1.905s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/environment/path.dsv
+[1.907s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/local_setup.bash
+[1.908s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/local_setup.sh
+[1.909s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/local_setup.zsh
+[1.909s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/local_setup.dsv
+[1.910s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.dsv
+[1.955s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/ament_index/resource_index/packages/phantom_coppelia
+[1.957s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/cmake/phantom_coppeliaConfig.cmake
+[1.958s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/cmake/phantom_coppeliaConfig-version.cmake
+[1.960s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.xml
+[1.969s] Invoked command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/ros2_ws/phantom_ws/install/my_first_package CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --install /home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia

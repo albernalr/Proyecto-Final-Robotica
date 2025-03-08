@@ -1,0 +1,19 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia//launch/bringup_launch.py
+-- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia//scenes/spheres.ttt
+-- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/ament_index/resource_index/package_run_dependencies/phantom_coppelia
+-- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/ament_index/resource_index/parent_prefix_path/phantom_coppelia
+-- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/environment/ament_prefix_path.sh
+-- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/environment/ament_prefix_path.dsv
+-- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/environment/path.sh
+-- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/environment/path.dsv
+-- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/local_setup.bash
+-- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/local_setup.sh
+-- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/local_setup.zsh
+-- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/local_setup.dsv
+-- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.dsv
+-- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/ament_index/resource_index/packages/phantom_coppelia
+-- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/cmake/phantom_coppeliaConfig.cmake
+-- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/cmake/phantom_coppeliaConfig-version.cmake
+-- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.xml

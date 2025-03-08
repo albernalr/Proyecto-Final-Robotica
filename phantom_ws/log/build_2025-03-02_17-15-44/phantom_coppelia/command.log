@@ -1,0 +1,1 @@
+Invoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake /home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_coppelia -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia

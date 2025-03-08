@@ -1,0 +1,223 @@
+[0.038s] Invoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake /home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_vision -DCMAKE_INSTALL_PREFIX=/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision
+[0.191s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.191s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.191s]   CMake.
+[0.191s] 
+[0.191s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.191s]   to tell CMake that the project requires at least <min> but has been updated
+[0.191s]   to work with policies introduced by <max> or earlier.
+[0.191s] 
+[0.191s] [0m
+[0.325s] -- Found ament_cmake: 1.3.11 (/home/alejandro/.local/share/mamba/envs/ros_env/share/ament_cmake/cmake)
+[1.132s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.226s] -- Found std_msgs: 4.2.4 (/home/alejandro/.local/share/mamba/envs/ros_env/share/std_msgs/cmake)
+[1.342s] -- Found rosidl_generator_c: 3.1.6 (/home/alejandro/.local/share/mamba/envs/ros_env/share/rosidl_generator_c/cmake)
+[1.370s] -- Found rosidl_adapter: 3.1.6 (/home/alejandro/.local/share/mamba/envs/ros_env/share/rosidl_adapter/cmake)
+[1.412s] -- Found rosidl_generator_cpp: 3.1.6 (/home/alejandro/.local/share/mamba/envs/ros_env/share/rosidl_generator_cpp/cmake)
+[1.464s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.507s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.651s] -- Found sensor_msgs: 4.2.4 (/home/alejandro/.local/share/mamba/envs/ros_env/share/sensor_msgs/cmake)
+[1.780s] -- Found rclcpp: 16.0.11 (/home/alejandro/.local/share/mamba/envs/ros_env/share/rclcpp/cmake)
+[1.859s] -- Found rmw_implementation_cmake: 6.1.2 (/home/alejandro/.local/share/mamba/envs/ros_env/share/rmw_implementation_cmake/cmake)
+[1.861s] -- Found rmw_fastrtps_cpp: 6.2.7 (/home/alejandro/.local/share/mamba/envs/ros_env/share/rmw_fastrtps_cpp/cmake)
+[2.327s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.562s] -- Found cv_bridge: 3.2.1 (/home/alejandro/.local/share/mamba/envs/ros_env/share/cv_bridge/cmake)
+[2.638s] -- Found image_transport: 3.1.10 (/home/alejandro/.local/share/mamba/envs/ros_env/share/image_transport/cmake)
+[2.816s] -- Found ament_lint_auto: 0.12.11 (/home/alejandro/.local/share/mamba/envs/ros_env/share/ament_lint_auto/cmake)
+[3.179s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.179s] -- Configured cppcheck include dirs: 
+[3.179s] -- Configured cppcheck exclude dirs and/or files: 
+[3.180s] -- Added test 'lint_cmake' to check CMake code style
+[3.180s] -- Added test 'uncrustify' to check C / C++ code style
+[3.180s] -- Configured uncrustify additional arguments: 
+[3.181s] -- Added test 'xmllint' to check XML markup files
+[3.236s] -- Configuring done (3.1s)
+[3.459s] [33mCMake Warning at CMakeLists.txt:30 (add_executable):
+[3.459s]   Cannot generate a safe runtime search path for target ball_finder because
+[3.459s]   files in some directories may conflict with libraries in implicit
+[3.459s]   directories:
+[3.459s] 
+[3.459s]     runtime library [libsensor_msgs__rosidl_typesupport_fastrtps_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.459s]       /opt/ros/humble/lib
+[3.460s]     runtime library [libgeometry_msgs__rosidl_typesupport_fastrtps_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.460s]       /opt/ros/humble/lib
+[3.460s]     runtime library [libstd_msgs__rosidl_typesupport_fastrtps_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.460s]       /opt/ros/humble/lib
+[3.460s]     runtime library [libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.460s]       /opt/ros/humble/lib
+[3.460s]     runtime library [libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.460s]       /opt/ros/humble/lib
+[3.460s]     runtime library [libstd_msgs__rosidl_typesupport_fastrtps_cpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.461s]       /opt/ros/humble/lib
+[3.461s]     runtime library [libsensor_msgs__rosidl_typesupport_introspection_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.461s]       /opt/ros/humble/lib
+[3.461s]     runtime library [libgeometry_msgs__rosidl_typesupport_introspection_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.461s]       /opt/ros/humble/lib
+[3.461s]     runtime library [libstd_msgs__rosidl_typesupport_introspection_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.461s]       /opt/ros/humble/lib
+[3.461s]     runtime library [libsensor_msgs__rosidl_typesupport_introspection_cpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.461s]       /opt/ros/humble/lib
+[3.462s]     runtime library [libgeometry_msgs__rosidl_typesupport_introspection_cpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.462s]       /opt/ros/humble/lib
+[3.462s]     runtime library [libstd_msgs__rosidl_typesupport_introspection_cpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.462s]       /opt/ros/humble/lib
+[3.462s]     runtime library [libsensor_msgs__rosidl_generator_py.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.462s]       /opt/ros/humble/lib
+[3.462s]     runtime library [libsensor_msgs__rosidl_typesupport_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.462s]       /opt/ros/humble/lib
+[3.462s]     runtime library [libsensor_msgs__rosidl_generator_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.462s]       /opt/ros/humble/lib
+[3.462s]     runtime library [libgeometry_msgs__rosidl_generator_py.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.463s]       /opt/ros/humble/lib
+[3.463s]     runtime library [libstd_msgs__rosidl_generator_py.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.463s]       /opt/ros/humble/lib
+[3.463s]     runtime library [libgeometry_msgs__rosidl_typesupport_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.463s]       /opt/ros/humble/lib
+[3.463s]     runtime library [libstd_msgs__rosidl_typesupport_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.463s]       /opt/ros/humble/lib
+[3.463s]     runtime library [libgeometry_msgs__rosidl_generator_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.463s]       /opt/ros/humble/lib
+[3.463s]     runtime library [libstd_msgs__rosidl_generator_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.464s]       /opt/ros/humble/lib
+[3.464s]     runtime library [libsensor_msgs__rosidl_typesupport_cpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.464s]       /opt/ros/humble/lib
+[3.464s]     runtime library [libgeometry_msgs__rosidl_typesupport_cpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.464s]       /opt/ros/humble/lib
+[3.464s]     runtime library [libstd_msgs__rosidl_typesupport_cpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.464s]       /opt/ros/humble/lib
+[3.464s]     runtime library [librclcpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.464s]       /opt/ros/humble/lib
+[3.464s]     runtime library [liblibstatistics_collector.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.465s]       /opt/ros/humble/lib
+[3.465s]     runtime library [librcl.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.465s]       /opt/ros/humble/lib
+[3.465s]     runtime library [librmw_implementation.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.465s]       /opt/ros/humble/lib
+[3.465s]     runtime library [libament_index_cpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.465s]       /opt/ros/humble/lib
+[3.465s]     runtime library [librcl_logging_spdlog.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.465s]       /opt/ros/humble/lib
+[3.465s]     runtime library [librcl_logging_interface.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.466s]       /opt/ros/humble/lib
+[3.466s]     runtime library [librcl_interfaces__rosidl_typesupport_fastrtps_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.466s]       /opt/ros/humble/lib
+[3.466s]     runtime library [librcl_interfaces__rosidl_typesupport_introspection_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.466s]       /opt/ros/humble/lib
+[3.466s]     runtime library [librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.466s]       /opt/ros/humble/lib
+[3.466s]     runtime library [librcl_interfaces__rosidl_typesupport_introspection_cpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.466s]       /opt/ros/humble/lib
+[3.467s]     runtime library [librcl_interfaces__rosidl_typesupport_cpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.467s]       /opt/ros/humble/lib
+[3.467s]     runtime library [librcl_interfaces__rosidl_generator_py.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.467s]       /opt/ros/humble/lib
+[3.467s]     runtime library [librcl_interfaces__rosidl_typesupport_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.467s]       /opt/ros/humble/lib
+[3.467s]     runtime library [librcl_interfaces__rosidl_generator_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.468s]       /opt/ros/humble/lib
+[3.468s]     runtime library [librcl_yaml_param_parser.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.468s]       /opt/ros/humble/lib
+[3.468s]     runtime library [librosgraph_msgs__rosidl_typesupport_fastrtps_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.468s]       /opt/ros/humble/lib
+[3.468s]     runtime library [librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.468s]       /opt/ros/humble/lib
+[3.468s]     runtime library [librosgraph_msgs__rosidl_typesupport_introspection_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.468s]       /opt/ros/humble/lib
+[3.468s]     runtime library [librosgraph_msgs__rosidl_typesupport_introspection_cpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.469s]       /opt/ros/humble/lib
+[3.469s]     runtime library [librosgraph_msgs__rosidl_typesupport_cpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.469s]       /opt/ros/humble/lib
+[3.469s]     runtime library [librosgraph_msgs__rosidl_generator_py.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.469s]       /opt/ros/humble/lib
+[3.469s]     runtime library [librosgraph_msgs__rosidl_typesupport_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.469s]       /opt/ros/humble/lib
+[3.469s]     runtime library [librosgraph_msgs__rosidl_generator_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.469s]       /opt/ros/humble/lib
+[3.469s]     runtime library [libstatistics_msgs__rosidl_typesupport_fastrtps_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.470s]       /opt/ros/humble/lib
+[3.470s]     runtime library [libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.470s]       /opt/ros/humble/lib
+[3.470s]     runtime library [librosidl_typesupport_fastrtps_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.470s]       /opt/ros/humble/lib
+[3.470s]     runtime library [libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.470s]       /opt/ros/humble/lib
+[3.470s]     runtime library [libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.470s]       /opt/ros/humble/lib
+[3.470s]     runtime library [librosidl_typesupport_fastrtps_cpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.470s]       /opt/ros/humble/lib
+[3.471s]     runtime library [libfastcdr.so.1] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.471s]       /opt/ros/humble/lib
+[3.471s]     runtime library [librmw.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.471s]       /opt/ros/humble/lib
+[3.471s]     runtime library [libstatistics_msgs__rosidl_typesupport_introspection_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.471s]       /opt/ros/humble/lib
+[3.471s]     runtime library [libbuiltin_interfaces__rosidl_typesupport_introspection_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.471s]       /opt/ros/humble/lib
+[3.471s]     runtime library [libstatistics_msgs__rosidl_typesupport_introspection_cpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.472s]       /opt/ros/humble/lib
+[3.472s]     runtime library [libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.472s]       /opt/ros/humble/lib
+[3.472s]     runtime library [librosidl_typesupport_introspection_cpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.472s]       /opt/ros/humble/lib
+[3.472s]     runtime library [librosidl_typesupport_introspection_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.472s]       /opt/ros/humble/lib
+[3.472s]     runtime library [libstatistics_msgs__rosidl_typesupport_cpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.472s]       /opt/ros/humble/lib
+[3.472s]     runtime library [libbuiltin_interfaces__rosidl_typesupport_cpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.472s]       /opt/ros/humble/lib
+[3.473s]     runtime library [librosidl_typesupport_cpp.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.473s]       /opt/ros/humble/lib
+[3.473s]     runtime library [libstatistics_msgs__rosidl_generator_py.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.473s]       /opt/ros/humble/lib
+[3.473s]     runtime library [libbuiltin_interfaces__rosidl_generator_py.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.473s]       /opt/ros/humble/lib
+[3.473s]     runtime library [libstatistics_msgs__rosidl_typesupport_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.473s]       /opt/ros/humble/lib
+[3.473s]     runtime library [libbuiltin_interfaces__rosidl_typesupport_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.473s]       /opt/ros/humble/lib
+[3.473s]     runtime library [libstatistics_msgs__rosidl_generator_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.473s]       /opt/ros/humble/lib
+[3.474s]     runtime library [libbuiltin_interfaces__rosidl_generator_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.474s]       /opt/ros/humble/lib
+[3.474s]     runtime library [librosidl_typesupport_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.474s]       /opt/ros/humble/lib
+[3.474s]     runtime library [librcpputils.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.474s]       /opt/ros/humble/lib
+[3.474s]     runtime library [librosidl_runtime_c.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.475s]       /opt/ros/humble/lib
+[3.475s]     runtime library [libtracetools.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.475s]       /opt/ros/humble/lib
+[3.475s]     runtime library [librcutils.so] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[3.475s]       /opt/ros/humble/lib
+[3.475s] 
+[3.475s]   Some of these libraries may not be found correctly.
+[3.475s] 
+[3.475s] [0m
+[3.538s] -- Generating done (0.3s)
+[3.550s] -- Build files have been written to: /home/alejandro/ros2_ws/phantom_ws/build/phantom_vision
+[3.576s] Invoked command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision' returned '0': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake /home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_vision -DCMAKE_INSTALL_PREFIX=/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision
+[3.577s] Invoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --build /home/alejandro/ros2_ws/phantom_ws/build/phantom_vision -- -j8 -l8
+[3.806s] [ 50%] [32mBuilding CXX object CMakeFiles/ball_finder.dir/src/ball_finder.cpp.o[0m
+[17.088s] [100%] [32m[1mLinking CXX executable ball_finder[0m
+[17.619s] [100%] Built target ball_finder
+[17.626s] Invoked command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision' returned '0': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --build /home/alejandro/ros2_ws/phantom_ws/build/phantom_vision -- -j8 -l8
+[17.643s] Invoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --install /home/alejandro/ros2_ws/phantom_ws/build/phantom_vision
+[17.648s] -- Install configuration: ""
+[17.648s] -- Execute custom install script
+[17.649s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/lib/phantom_vision/ball_finder
+[17.650s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/ament_index/resource_index/package_run_dependencies/phantom_vision
+[17.651s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/ament_index/resource_index/parent_prefix_path/phantom_vision
+[17.651s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/environment/ament_prefix_path.sh
+[17.652s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/environment/ament_prefix_path.dsv
+[17.652s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/environment/path.sh
+[17.652s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/environment/path.dsv
+[17.653s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/local_setup.bash
+[17.653s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/local_setup.sh
+[17.653s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/local_setup.zsh
+[17.654s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/local_setup.dsv
+[17.654s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/package.dsv
+[17.660s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/ament_index/resource_index/packages/phantom_vision
+[17.661s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/cmake/phantom_visionConfig.cmake
+[17.661s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/cmake/phantom_visionConfig-version.cmake
+[17.661s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/package.xml
+[17.663s] Invoked command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision' returned '0': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --install /home/alejandro/ros2_ws/phantom_ws/build/phantom_vision

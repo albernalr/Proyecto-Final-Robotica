@@ -1,0 +1,123 @@
+[0.015s] Invoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_control': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake /home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alejandro/ros2_ws/phantom_ws/install/phantom_control
+[0.021s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.022s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.022s]   CMake.
+[0.022s] 
+[0.022s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.022s]   to tell CMake that the project requires at least <min> but has been updated
+[0.022s]   to work with policies introduced by <max> or earlier.
+[0.022s] 
+[0.022s] [0m
+[0.031s] -- Found hardware_interface: 2.48.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.211s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.242s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.245s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.251s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.261s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.275s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.428s] -- Found TinyXML2 via Config file: /home/alejandro/.local/share/mamba/envs/ros_env/lib/cmake/tinyxml2
+[0.456s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.458s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.478s] -- Found TinyXML2 via Config file: /home/alejandro/.local/share/mamba/envs/ros_env/lib/cmake/tinyxml2
+[0.497s] -- Found TinyXML2 via Config file: /home/alejandro/.local/share/mamba/envs/ros_env/lib/cmake/tinyxml2
+[0.523s] -- Found TinyXML2 via Config file: /home/alejandro/.local/share/mamba/envs/ros_env/lib/cmake/tinyxml2
+[0.542s] -- Found TinyXML2 via Config file: /home/alejandro/.local/share/mamba/envs/ros_env/lib/cmake/tinyxml2
+[0.563s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.614s] -- Found angles: 1.15.0 (/home/alejandro/.local/share/mamba/envs/ros_env/share/angles/cmake)
+[0.616s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.617s] -- Found dynamixel_sdk: 3.7.60 (/opt/ros/humble/share/dynamixel_sdk/cmake)
+[0.628s] -- Found ament_lint_auto: 0.12.11 (/home/alejandro/.local/share/mamba/envs/ros_env/share/ament_lint_auto/cmake)
+[0.733s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.734s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control/hardware/include>
+[0.734s] -- Configured cppcheck exclude dirs and/or files: 
+[0.734s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.735s] -- Added test 'lint_cmake' to check CMake code style
+[0.736s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.737s] -- Added test 'uncrustify' to check C / C++ code style
+[0.737s] -- Configured uncrustify additional arguments: 
+[0.737s] -- Added test 'xmllint' to check XML markup files
+[0.741s] -- Configuring done (0.7s)
+[0.851s] [33mCMake Warning at CMakeLists.txt:30 (add_library):
+[0.851s]   Cannot generate a safe runtime search path for target phantom_control
+[0.851s]   because files in some directories may conflict with libraries in implicit
+[0.851s]   directories:
+[0.851s] 
+[0.851s]     runtime library [libconsole_bridge.so.1.0] in /home/alejandro/.local/share/mamba/envs/ros_env/lib may be hidden by files in:
+[0.851s]       /usr/lib/x86_64-linux-gnu
+[0.851s] 
+[0.852s]   Some of these libraries may not be found correctly.
+[0.852s] 
+[0.852s] [0m
+[0.854s] -- Generating done (0.1s)
+[0.854s] -- Build files have been written to: /home/alejandro/ros2_ws/phantom_ws/build/phantom_control
+[0.861s] Invoked command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_control' returned '0': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake /home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alejandro/ros2_ws/phantom_ws/install/phantom_control
+[0.862s] Invoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_control': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --build /home/alejandro/ros2_ws/phantom_ws/build/phantom_control -- -j8 -l8
+[0.910s] [ 66%] [32mBuilding CXX object CMakeFiles/phantom_control.dir/hardware/topic_based_system.cpp.o[0m
+[0.910s] [ 66%] [32mBuilding CXX object CMakeFiles/phantom_control.dir/hardware/phantom_pincher_system.cpp.o[0m
+[2.521s] [01m[K/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control/hardware/phantom_pincher_system.cpp:[m[K In member function '[01m[Kvirtual phantom_control::CallbackReturn phantom_control::PhantomPincherSystem::[01;32m[Kon_configure[m[K(const rclcpp_lifecycle::State&)[m[K':
+[2.521s] [01m[K/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control/hardware/phantom_pincher_system.cpp:239:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: '[01m[Kint[m[K' and '[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K' {aka '[01m[Klong unsigned int[m[K'} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.521s]   239 |   for(int i = 0; [01;35m[Ki < joint_states_[POSITION_INTERFACE_INDEX].size()[m[K; i++){
+[2.521s]       |                  [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.521s] [01m[K/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control/hardware/phantom_pincher_system.cpp:175:82:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kprevious_state[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.521s]   175 | CallbackReturn PhantomPincherSystem::on_configure([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K){
+[2.522s]       |                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.528s] [01m[K/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control/hardware/phantom_pincher_system.cpp:[m[K In member function '[01m[Kvirtual hardware_interface::return_type phantom_control::PhantomPincherSystem::[01;32m[Kread[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K':
+[2.528s] [01m[K/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control/hardware/phantom_pincher_system.cpp:315:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: '[01m[Kint[m[K' and '[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K' {aka '[01m[Klong unsigned int[m[K'} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.528s]   315 |   for(int i = 0; [01;35m[Ki < joint_states_[POSITION_INTERFACE_INDEX].size()[m[K; i++){
+[2.528s]       |                  [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.529s] [01m[K/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control/hardware/phantom_pincher_system.cpp:[m[K In member function '[01m[Kvirtual hardware_interface::return_type phantom_control::PhantomPincherSystem::[01;32m[Kwrite[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K':
+[2.529s] [01m[K/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control/hardware/phantom_pincher_system.cpp:403:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: '[01m[Kint[m[K' and '[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K' {aka '[01m[Klong unsigned int[m[K'} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.529s]   403 |   for(int i = 0; [01;35m[Ki < joint_commands_[POSITION_INTERFACE_INDEX].size()[m[K; i++){
+[2.529s]       |                  [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.529s] [01m[K/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control/hardware/phantom_pincher_system.cpp:404:11:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kcmd[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.529s]   404 |     float [01;35m[Kcmd[m[K = joint_commands_[POSITION_INTERFACE_INDEX][i] * (180.0f / 3.14f) * 1.0f / 0.087891f;
+[2.529s]       |           [01;35m[K^~~[m[K
+[2.986s] [01m[K/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control/hardware/phantom_pincher_system.cpp:[m[K At global scope:
+[2.986s] [01m[K/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control/hardware/phantom_pincher_system.cpp:30:6:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid {anonymous}::[01;32m[KsumRotationFromMinus2PiTo2Pi[m[K(double, double&)[m[K' defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[2.986s]    30 | void [01;35m[KsumRotationFromMinus2PiTo2Pi[m[K(const double current_wrapped_rad, double& total_rotation)
+[2.986s]       |      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.861s] [100%] [32m[1mLinking CXX shared library libphantom_control.so[0m
+[12.207s] [100%] Built target phantom_control
+[12.215s] Invoked command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_control' returned '0': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --build /home/alejandro/ros2_ws/phantom_ws/build/phantom_control -- -j8 -l8
+[12.235s] Invoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_control': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --install /home/alejandro/ros2_ws/phantom_ws/build/phantom_control
+[12.241s] -- Install configuration: ""
+[12.241s] -- Execute custom install script
+[12.241s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//phantom_control.xml
+[12.247s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//pincher_control.xml
+[12.253s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/include/phantom_control/phantom_control/phantom_pincher_system.hpp
+[12.259s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/include/phantom_control/phantom_control/topic_based_system.hpp
+[12.265s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//launch/bringup_launch.py
+[12.270s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//launch/physical_launch.py
+[12.276s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//launch/px100_bringup_launch.py
+[12.282s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//config/coppelia_rgb_depth_rviz.rviz
+[12.287s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//config/phantom_controllers.yaml
+[12.292s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//config/px100_controllers.yaml
+[12.298s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//hardware/include/phantom_control/phantom_pincher_system.hpp
+[12.303s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//hardware/include/phantom_control/topic_based_system.hpp
+[12.308s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//hardware/phantom_pincher_system.cpp
+[12.313s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//hardware/topic_based_system.cpp
+[12.318s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//rviz/broadcaster_viz.rviz
+[12.324s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//description/phantom.ros2_control.xacro
+[12.330s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//description/physical_phantom.ros2_control.xacro
+[12.335s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//description/px100.urdf.xacro
+[12.340s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//description/ros2_control/px100.ros2_control.xacro
+[12.346s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/ament_index/resource_index/package_run_dependencies/phantom_control
+[12.351s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/ament_index/resource_index/parent_prefix_path/phantom_control
+[12.356s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/environment/ament_prefix_path.sh
+[12.362s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/environment/ament_prefix_path.dsv
+[12.367s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/environment/path.sh
+[12.372s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/environment/path.dsv
+[12.377s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/local_setup.bash
+[12.383s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/local_setup.sh
+[12.388s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/local_setup.zsh
+[12.393s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/local_setup.dsv
+[12.399s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/package.dsv
+[12.404s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/ament_index/resource_index/packages/phantom_control
+[12.409s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/phantom_control
+[12.415s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.420s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/cmake/phantom_controlConfig.cmake
+[12.425s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/cmake/phantom_controlConfig-version.cmake
+[12.432s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/package.xml
+[12.437s] -- Installing: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/lib/libphantom_control.so
+[12.437s] -- Set non-toolchain portion of runtime path of "/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/lib/libphantom_control.so" to ""
+[12.439s] Invoked command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_control' returned '0': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --install /home/alejandro/ros2_ws/phantom_ws/build/phantom_control

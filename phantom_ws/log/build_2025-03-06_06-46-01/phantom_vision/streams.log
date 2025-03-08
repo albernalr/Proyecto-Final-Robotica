@@ -1,0 +1,23 @@
+[0.930s] Invoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/ros2_ws/phantom_ws/install/my_first_package CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --build /home/alejandro/ros2_ws/phantom_ws/build/phantom_vision -- -j8 -l8
+[1.235s] [100%] Built target ball_finder
+[1.284s] Invoked command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/ros2_ws/phantom_ws/install/my_first_package CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --build /home/alejandro/ros2_ws/phantom_ws/build/phantom_vision -- -j8 -l8
+[1.437s] Invoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/ros2_ws/phantom_ws/install/my_first_package CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --install /home/alejandro/ros2_ws/phantom_ws/build/phantom_vision
+[1.466s] -- Install configuration: ""
+[1.468s] -- Execute custom install script
+[1.474s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/lib/phantom_vision/ball_finder
+[1.474s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/ament_index/resource_index/package_run_dependencies/phantom_vision
+[1.475s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/ament_index/resource_index/parent_prefix_path/phantom_vision
+[1.476s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/environment/ament_prefix_path.sh
+[1.477s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/environment/ament_prefix_path.dsv
+[1.478s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/environment/path.sh
+[1.484s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/environment/path.dsv
+[1.491s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/local_setup.bash
+[1.492s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/local_setup.sh
+[1.495s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/local_setup.zsh
+[1.503s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/local_setup.dsv
+[1.504s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/package.dsv
+[1.540s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/ament_index/resource_index/packages/phantom_vision
+[1.540s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/cmake/phantom_visionConfig.cmake
+[1.540s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/cmake/phantom_visionConfig-version.cmake
+[1.542s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/package.xml
+[1.601s] Invoked command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/ros2_ws/phantom_ws/install/my_first_package CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --install /home/alejandro/ros2_ws/phantom_ws/build/phantom_vision

@@ -1,0 +1,1 @@
+Invoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --build /home/alejandro/ros2_ws/phantom_ws/build/phantom_vision -- -j8 -l8

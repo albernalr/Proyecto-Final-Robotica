@@ -1,0 +1,1 @@
+/home/alejandro/ros2_ws/phantom_ws/build/phantom_description/ament_cmake_environment_hooks/local_setup.zsh

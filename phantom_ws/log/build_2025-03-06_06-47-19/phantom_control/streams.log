@@ -1,0 +1,45 @@
+[1.338s] Invoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/ros2_ws/phantom_ws/install/my_first_package CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --build /home/alejandro/ros2_ws/phantom_ws/build/phantom_control -- -j8 -l8
+[1.690s] [100%] Built target phantom_control
+[1.838s] Invoked command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/ros2_ws/phantom_ws/install/my_first_package CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --build /home/alejandro/ros2_ws/phantom_ws/build/phantom_control -- -j8 -l8
+[2.086s] Invoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/ros2_ws/phantom_ws/install/my_first_package CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --install /home/alejandro/ros2_ws/phantom_ws/build/phantom_control
+[2.131s] -- Install configuration: ""
+[2.134s] -- Execute custom install script
+[2.138s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//phantom_control.xml
+[2.139s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//pincher_control.xml
+[2.147s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/include/phantom_control/phantom_control/phantom_pincher_system.hpp
+[2.150s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/include/phantom_control/phantom_control/topic_based_system.hpp
+[2.163s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//launch/bringup_launch.py
+[2.163s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//launch/physical_launch.py
+[2.168s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//launch/px100_bringup_launch.py
+[2.169s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//config/coppelia_rgb_depth_rviz.rviz
+[2.169s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//config/phantom_controllers.yaml
+[2.170s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//config/px100_controllers.yaml
+[2.170s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//hardware/include/phantom_control/phantom_pincher_system.hpp
+[2.171s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//hardware/include/phantom_control/topic_based_system.hpp
+[2.171s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//hardware/phantom_pincher_system.cpp
+[2.172s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//hardware/topic_based_system.cpp
+[2.172s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//rviz/broadcaster_viz.rviz
+[2.173s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//description/phantom.ros2_control.xacro
+[2.179s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//description/physical_phantom.ros2_control.xacro
+[2.181s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//description/px100.urdf.xacro
+[2.182s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control//description/ros2_control/px100.ros2_control.xacro
+[2.184s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/ament_index/resource_index/package_run_dependencies/phantom_control
+[2.193s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/ament_index/resource_index/parent_prefix_path/phantom_control
+[2.194s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/environment/ament_prefix_path.sh
+[2.194s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/environment/ament_prefix_path.dsv
+[2.195s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/environment/path.sh
+[2.196s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/environment/path.dsv
+[2.198s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/local_setup.bash
+[2.199s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/local_setup.sh
+[2.200s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/local_setup.zsh
+[2.200s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/local_setup.dsv
+[2.203s] -- Symlinking: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/package.dsv
+[2.257s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/ament_index/resource_index/packages/phantom_control
+[2.259s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/phantom_control
+[2.259s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.261s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/cmake/phantom_controlConfig.cmake
+[2.261s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/cmake/phantom_controlConfig-version.cmake
+[2.262s] -- Up-to-date symlink: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/package.xml
+[2.266s] -- Installing: /home/alejandro/ros2_ws/phantom_ws/install/phantom_control/lib/libphantom_control.so
+[2.274s] -- Set non-toolchain portion of runtime path of "/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/lib/libphantom_control.so" to ""
+[2.354s] Invoked command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/ros2_ws/phantom_ws/install/my_first_package CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --install /home/alejandro/ros2_ws/phantom_ws/build/phantom_control

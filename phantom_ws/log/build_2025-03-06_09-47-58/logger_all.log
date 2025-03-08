@@ -1,0 +1,435 @@
+[0.347s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/home/alejandro/.local/share/mamba/envs/ros_env/bin/colcon', 'build'][0m
+[0.347s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x77bb63f3acd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77bb64051490>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77bb64051490>>)[0m
+[0.450s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.450s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.450s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.450s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.450s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.450s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.451s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/alejandro/ros2_ws/phantom_ws'
+[0.451s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.451s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.451s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.451s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.451s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.451s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.451s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.451s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.501s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.502s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.502s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.502s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.502s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.502s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.502s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.502s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.502s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.502s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.502s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.502s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.502s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.502s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantom_ex) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantom_ex) by extension 'ignore'
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantom_ex) by extension 'ignore_ament_install'
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantom_ex) by extensions ['colcon_pkg']
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantom_ex) by extension 'colcon_pkg'
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantom_ex) by extensions ['colcon_meta']
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantom_ex) by extension 'colcon_meta'
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantom_ex) by extensions ['ros']
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantom_ex) by extension 'ros'
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantom_ex) by extensions ['cmake', 'python']
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantom_ex) by extension 'cmake'
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantom_ex) by extension 'python'
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantom_ex) by extensions ['python_setup_py']
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantom_ex) by extension 'python_setup_py'
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantom_ex/my_first_package) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantom_ex/my_first_package) by extension 'ignore'
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantom_ex/my_first_package) by extension 'ignore_ament_install'
+[0.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantom_ex/my_first_package) by extensions ['colcon_pkg']
+[0.504s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantom_ex/my_first_package) by extension 'colcon_pkg'
+[0.504s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantom_ex/my_first_package) by extensions ['colcon_meta']
+[0.504s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantom_ex/my_first_package) by extension 'colcon_meta'
+[0.504s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantom_ex/my_first_package) by extensions ['ros']
+[0.504s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantom_ex/my_first_package) by extension 'ros'
+[0.508s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/phantom_ex/my_first_package' with type 'ros.ament_python' and name 'my_first_package'[0m
+[0.508s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench) by extension 'ignore'
+[0.508s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench) by extension 'ignore_ament_install'
+[0.508s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench) by extensions ['colcon_pkg']
+[0.508s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench) by extension 'colcon_pkg'
+[0.508s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench) by extensions ['colcon_meta']
+[0.508s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench) by extension 'colcon_meta'
+[0.508s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench) by extensions ['ros']
+[0.508s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench) by extension 'ros'
+[0.508s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench) by extensions ['cmake', 'python']
+[0.509s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench) by extension 'cmake'
+[0.509s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench) by extension 'python'
+[0.509s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench) by extensions ['python_setup_py']
+[0.509s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench) by extension 'python_setup_py'
+[0.509s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/DynamixelSDK) by extensions ['ignore', 'ignore_ament_install']
+[0.509s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/DynamixelSDK) by extension 'ignore'
+[0.509s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/DynamixelSDK) by extension 'ignore_ament_install'
+[0.509s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/DynamixelSDK) by extensions ['colcon_pkg']
+[0.509s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/DynamixelSDK) by extension 'colcon_pkg'
+[0.510s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/DynamixelSDK) by extensions ['colcon_meta']
+[0.510s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/DynamixelSDK) by extension 'colcon_meta'
+[0.510s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/DynamixelSDK) by extensions ['ros']
+[0.510s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/DynamixelSDK) by extension 'ros'
+[0.510s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/DynamixelSDK) by extensions ['cmake', 'python']
+[0.510s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/DynamixelSDK) by extension 'cmake'
+[0.510s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/DynamixelSDK) by extension 'python'
+[0.510s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/DynamixelSDK) by extensions ['python_setup_py']
+[0.510s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/DynamixelSDK) by extension 'python_setup_py'
+[0.510s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/docs) by extension 'ignore'
+[0.510s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/docs) by extension 'ignore_ament_install'
+[0.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/docs) by extensions ['colcon_pkg']
+[0.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/docs) by extension 'colcon_pkg'
+[0.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/docs) by extensions ['colcon_meta']
+[0.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/docs) by extension 'colcon_meta'
+[0.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/docs) by extensions ['ros']
+[0.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/docs) by extension 'ros'
+[0.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/docs) by extensions ['cmake', 'python']
+[0.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/docs) by extension 'cmake'
+[0.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/docs) by extension 'python'
+[0.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/docs) by extensions ['python_setup_py']
+[0.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/docs) by extension 'python_setup_py'
+[0.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_control) by extensions ['ignore', 'ignore_ament_install']
+[0.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_control) by extension 'ignore'
+[0.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_control) by extension 'ignore_ament_install'
+[0.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_control) by extensions ['colcon_pkg']
+[0.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_control) by extension 'colcon_pkg'
+[0.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_control) by extensions ['colcon_meta']
+[0.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_control) by extension 'colcon_meta'
+[0.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_control) by extensions ['ros']
+[0.512s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_control) by extension 'ros'
+[0.513s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/phantomx-workbench/phantom_control' with type 'ros.ament_cmake' and name 'phantom_control'[0m
+[0.513s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_coppelia) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_coppelia) by extension 'ignore'
+[0.513s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_coppelia) by extension 'ignore_ament_install'
+[0.514s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_coppelia) by extensions ['colcon_pkg']
+[0.514s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_coppelia) by extension 'colcon_pkg'
+[0.514s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_coppelia) by extensions ['colcon_meta']
+[0.514s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_coppelia) by extension 'colcon_meta'
+[0.514s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_coppelia) by extensions ['ros']
+[0.514s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_coppelia) by extension 'ros'
+[0.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/phantomx-workbench/phantom_coppelia' with type 'ros.ament_cmake' and name 'phantom_coppelia'[0m
+[0.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_description) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_description) by extension 'ignore'
+[0.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_description) by extension 'ignore_ament_install'
+[0.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_description) by extensions ['colcon_pkg']
+[0.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_description) by extension 'colcon_pkg'
+[0.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_description) by extensions ['colcon_meta']
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_description) by extension 'colcon_meta'
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_description) by extensions ['ros']
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_description) by extension 'ros'
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/phantomx-workbench/phantom_description' with type 'ros.ament_cmake' and name 'phantom_description'[0m
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_vision) by extension 'ignore'
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_vision) by extension 'ignore_ament_install'
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_vision) by extensions ['colcon_pkg']
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_vision) by extension 'colcon_pkg'
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_vision) by extensions ['colcon_meta']
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_vision) by extension 'colcon_meta'
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_vision) by extensions ['ros']
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/phantomx-workbench/phantom_vision) by extension 'ros'
+[0.518s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/phantomx-workbench/phantom_vision' with type 'ros.ament_cmake' and name 'phantom_vision'[0m
+[0.518s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.518s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.518s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.518s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.518s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.552s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_first_package' build argument 'cmake_args' from command line to 'None'
+[0.552s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_first_package' build argument 'cmake_target' from command line to 'None'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_first_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_first_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_first_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_first_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_first_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_first_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_first_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'my_first_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alejandro/ros2_ws/phantom_ws/build/my_first_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alejandro/ros2_ws/phantom_ws/install/my_first_package', 'merge_install': False, 'path': '/home/alejandro/ros2_ws/phantom_ws/src/phantom_ex/my_first_package', 'symlink_install': False, 'test_result_base': None}[0m
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_control' build argument 'cmake_args' from command line to 'None'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_control' build argument 'cmake_target' from command line to 'None'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'phantom_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alejandro/ros2_ws/phantom_ws/build/phantom_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control', 'merge_install': False, 'path': '/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control', 'symlink_install': False, 'test_result_base': None}[0m
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_coppelia' build argument 'cmake_args' from command line to 'None'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_coppelia' build argument 'cmake_target' from command line to 'None'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_coppelia' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_coppelia' build argument 'cmake_clean_cache' from command line to 'False'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_coppelia' build argument 'cmake_clean_first' from command line to 'False'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_coppelia' build argument 'cmake_force_configure' from command line to 'False'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_coppelia' build argument 'ament_cmake_args' from command line to 'None'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_coppelia' build argument 'catkin_cmake_args' from command line to 'None'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_coppelia' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.553s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'phantom_coppelia' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia', 'merge_install': False, 'path': '/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_coppelia', 'symlink_install': False, 'test_result_base': None}[0m
+[0.554s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_description' build argument 'cmake_args' from command line to 'None'
+[0.554s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_description' build argument 'cmake_target' from command line to 'None'
+[0.554s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.554s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.554s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.554s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.554s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.554s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.554s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.554s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'phantom_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alejandro/ros2_ws/phantom_ws/build/phantom_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description', 'merge_install': False, 'path': '/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_description', 'symlink_install': False, 'test_result_base': None}[0m
+[0.554s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_vision' build argument 'cmake_args' from command line to 'None'
+[0.554s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_vision' build argument 'cmake_target' from command line to 'None'
+[0.554s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.554s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_vision' build argument 'cmake_clean_cache' from command line to 'False'
+[0.554s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_vision' build argument 'cmake_clean_first' from command line to 'False'
+[0.554s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_vision' build argument 'cmake_force_configure' from command line to 'False'
+[0.554s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_vision' build argument 'ament_cmake_args' from command line to 'None'
+[0.554s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_vision' build argument 'catkin_cmake_args' from command line to 'None'
+[0.554s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.554s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'phantom_vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision', 'merge_install': False, 'path': '/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_vision', 'symlink_install': False, 'test_result_base': None}[0m
+[0.554s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.555s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.555s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/alejandro/ros2_ws/phantom_ws/src/phantom_ex/my_first_package' with build type 'ament_python'
+[0.555s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_first_package', 'ament_prefix_path')
+[0.563s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.563s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alejandro/ros2_ws/phantom_ws/install/my_first_package/share/my_first_package/hook/ament_prefix_path.ps1'
+[0.566s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/alejandro/ros2_ws/phantom_ws/install/my_first_package/share/my_first_package/hook/ament_prefix_path.dsv'
+[0.569s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alejandro/ros2_ws/phantom_ws/install/my_first_package/share/my_first_package/hook/ament_prefix_path.sh'
+[0.574s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.574s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.585s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control' with build type 'ament_cmake'
+[0.585s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_control'
+[0.585s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.585s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.588s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_coppelia' with build type 'ament_cmake'
+[0.588s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_coppelia'
+[0.588s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.588s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.590s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_description' with build type 'ament_cmake'
+[0.591s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_description'
+[0.591s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.591s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.593s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_vision' with build type 'ament_cmake'
+[0.593s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/alejandro/ros2_ws/phantom_ws/src/phantomx-workbench/phantom_vision'
+[0.593s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.593s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.761s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/alejandro/ros2_ws/phantom_ws/src/phantom_ex/my_first_package'
+[0.761s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.761s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.769s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_control': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --build /home/alejandro/ros2_ws/phantom_ws/build/phantom_control -- -j8 -l8[0m
+[0.780s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --build /home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia -- -j8 -l8[0m
+[0.789s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_description': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --build /home/alejandro/ros2_ws/phantom_ws/build/phantom_description -- -j8 -l8[0m
+[0.802s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --build /home/alejandro/ros2_ws/phantom_ws/build/phantom_vision -- -j8 -l8[0m
+[1.211s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_description' returned '0': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --build /home/alejandro/ros2_ws/phantom_ws/build/phantom_description -- -j8 -l8[0m
+[1.213s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia' returned '0': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --build /home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia -- -j8 -l8[0m
+[1.235s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_description': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --install /home/alejandro/ros2_ws/phantom_ws/build/phantom_description[0m
+[1.237s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --install /home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia[0m
+[1.334s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(phantom_coppelia)
+[1.335s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia' returned '0': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --install /home/alejandro/ros2_ws/phantom_ws/build/phantom_coppelia[0m
+[1.383s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia' for CMake module files
+[1.383s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia' for CMake config files
+[1.383s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('phantom_coppelia', 'cmake_prefix_path')
+[1.383s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/hook/cmake_prefix_path.ps1'
+[1.386s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/hook/cmake_prefix_path.dsv'
+[1.386s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/hook/cmake_prefix_path.sh'
+[1.391s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/bin'
+[1.391s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/lib/pkgconfig/phantom_coppelia.pc'
+[1.391s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/lib/python3.11/site-packages'
+[1.391s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/bin'
+[1.392s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.ps1'
+[1.398s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.dsv'
+[1.402s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.sh'
+[1.404s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.bash'
+[1.410s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.zsh'
+[1.419s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/colcon-core/packages/phantom_coppelia)
+[1.432s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(phantom_description)
+[1.432s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description' for CMake module files
+[1.432s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_description' returned '0': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --install /home/alejandro/ros2_ws/phantom_ws/build/phantom_description[0m
+[1.433s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description' for CMake config files
+[1.433s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('phantom_description', 'cmake_prefix_path')
+[1.433s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/hook/cmake_prefix_path.ps1'
+[1.439s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/hook/cmake_prefix_path.dsv'
+[1.441s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/hook/cmake_prefix_path.sh'
+[1.442s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/bin'
+[1.442s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/lib/pkgconfig/phantom_description.pc'
+[1.442s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/lib/python3.11/site-packages'
+[1.442s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/bin'
+[1.442s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/package.ps1'
+[1.445s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/package.dsv'
+[1.445s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/package.sh'
+[1.447s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/package.bash'
+[1.447s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/package.zsh'
+[1.447s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/colcon-core/packages/phantom_description)
+[1.455s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(phantom_coppelia)
+[1.455s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia' for CMake module files
+[1.456s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia' for CMake config files
+[1.456s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('phantom_coppelia', 'cmake_prefix_path')
+[1.456s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/hook/cmake_prefix_path.ps1'
+[1.456s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/hook/cmake_prefix_path.dsv'
+[1.456s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/hook/cmake_prefix_path.sh'
+[1.458s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/bin'
+[1.458s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/lib/pkgconfig/phantom_coppelia.pc'
+[1.458s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/lib/python3.11/site-packages'
+[1.458s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/bin'
+[1.458s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.ps1'
+[1.459s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.dsv'
+[1.461s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.sh'
+[1.461s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.bash'
+[1.462s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.zsh'
+[1.462s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/alejandro/ros2_ws/phantom_ws/install/phantom_coppelia/share/colcon-core/packages/phantom_coppelia)
+[1.468s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(phantom_description)
+[1.468s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description' for CMake module files
+[1.468s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description' for CMake config files
+[1.469s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('phantom_description', 'cmake_prefix_path')
+[1.469s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/hook/cmake_prefix_path.ps1'
+[1.469s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/hook/cmake_prefix_path.dsv'
+[1.469s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/hook/cmake_prefix_path.sh'
+[1.471s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/bin'
+[1.471s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/lib/pkgconfig/phantom_description.pc'
+[1.471s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/lib/python3.11/site-packages'
+[1.472s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/bin'
+[1.472s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/package.ps1'
+[1.474s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/package.dsv'
+[1.477s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/package.sh'
+[1.478s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/package.bash'
+[1.481s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/phantom_description/package.zsh'
+[1.481s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/alejandro/ros2_ws/phantom_ws/install/phantom_description/share/colcon-core/packages/phantom_description)
+[1.555s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision' returned '0': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --build /home/alejandro/ros2_ws/phantom_ws/build/phantom_vision -- -j8 -l8[0m
+[1.572s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --install /home/alejandro/ros2_ws/phantom_ws/build/phantom_vision[0m
+[1.608s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(phantom_vision)
+[1.608s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision' for CMake module files
+[1.609s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision' returned '0': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --install /home/alejandro/ros2_ws/phantom_ws/build/phantom_vision[0m
+[1.609s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision' for CMake config files
+[1.609s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('phantom_vision', 'cmake_prefix_path')
+[1.609s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/hook/cmake_prefix_path.ps1'
+[1.611s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/hook/cmake_prefix_path.dsv'
+[1.616s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/hook/cmake_prefix_path.sh'
+[1.618s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/lib'
+[1.619s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/bin'
+[1.619s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/lib/pkgconfig/phantom_vision.pc'
+[1.619s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/lib/python3.11/site-packages'
+[1.619s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/bin'
+[1.620s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/package.ps1'
+[1.622s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/package.dsv'
+[1.622s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/package.sh'
+[1.623s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/package.bash'
+[1.623s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/package.zsh'
+[1.624s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/colcon-core/packages/phantom_vision)
+[1.629s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/alejandro/ros2_ws/phantom_ws/src/phantom_ex/my_first_package': CONDA_PROMPT_MODIFIER=(ros_env) PYTHONPATH=/home/alejandro/ros2_ws/phantom_ws/build/my_first_package/prefix_override:/home/alejandro/.local/share/mamba/envs/ros_env/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandro/ros2_ws/phantom_ws/install/my_first_package/lib/python3.11/site-packages:${PYTHONPATH} /home/alejandro/.local/share/mamba/envs/ros_env/bin/python3.11 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/my_first_package build --build-base /home/alejandro/ros2_ws/phantom_ws/build/my_first_package/build install --record /home/alejandro/ros2_ws/phantom_ws/build/my_first_package/install.log --single-version-externally-managed install_data[0m
+[1.630s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_control' returned '0': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --build /home/alejandro/ros2_ws/phantom_ws/build/phantom_control -- -j8 -l8[0m
+[1.643s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(phantom_vision)
+[1.643s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision' for CMake module files
+[1.643s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision' for CMake config files
+[1.643s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('phantom_vision', 'cmake_prefix_path')
+[1.643s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/hook/cmake_prefix_path.ps1'
+[1.644s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/hook/cmake_prefix_path.dsv'
+[1.645s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/hook/cmake_prefix_path.sh'
+[1.646s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/lib'
+[1.646s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/bin'
+[1.646s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/lib/pkgconfig/phantom_vision.pc'
+[1.646s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/lib/python3.11/site-packages'
+[1.646s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/bin'
+[1.646s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/package.ps1'
+[1.647s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/package.dsv'
+[1.648s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/package.sh'
+[1.650s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/package.bash'
+[1.651s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/phantom_vision/package.zsh'
+[1.652s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/alejandro/ros2_ws/phantom_ws/install/phantom_vision/share/colcon-core/packages/phantom_vision)
+[1.657s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_control': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --install /home/alejandro/ros2_ws/phantom_ws/build/phantom_control[0m
+[1.721s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(phantom_control)
+[1.721s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control' for CMake module files
+[1.721s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_control' returned '0': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --install /home/alejandro/ros2_ws/phantom_ws/build/phantom_control[0m
+[1.721s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control' for CMake config files
+[1.722s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('phantom_control', 'cmake_prefix_path')
+[1.722s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/hook/cmake_prefix_path.ps1'
+[1.724s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/hook/cmake_prefix_path.dsv'
+[1.726s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/hook/cmake_prefix_path.sh'
+[1.728s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/lib'
+[1.728s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('phantom_control', 'ld_library_path_lib')
+[1.728s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/hook/ld_library_path_lib.ps1'
+[1.729s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/hook/ld_library_path_lib.dsv'
+[1.731s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/hook/ld_library_path_lib.sh'
+[1.733s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/bin'
+[1.733s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/lib/pkgconfig/phantom_control.pc'
+[1.733s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/lib/python3.11/site-packages'
+[1.733s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/bin'
+[1.733s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/package.ps1'
+[1.734s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/package.dsv'
+[1.735s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/package.sh'
+[1.736s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/package.bash'
+[1.740s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/package.zsh'
+[1.742s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/colcon-core/packages/phantom_control)
+[1.764s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(phantom_control)
+[1.764s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control' for CMake module files
+[1.764s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control' for CMake config files
+[1.764s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('phantom_control', 'cmake_prefix_path')
+[1.764s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/hook/cmake_prefix_path.ps1'
+[1.765s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/hook/cmake_prefix_path.dsv'
+[1.766s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/hook/cmake_prefix_path.sh'
+[1.767s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/lib'
+[1.767s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('phantom_control', 'ld_library_path_lib')
+[1.767s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/hook/ld_library_path_lib.ps1'
+[1.768s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/hook/ld_library_path_lib.dsv'
+[1.768s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/hook/ld_library_path_lib.sh'
+[1.769s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/bin'
+[1.769s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/lib/pkgconfig/phantom_control.pc'
+[1.770s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/lib/python3.11/site-packages'
+[1.770s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/bin'
+[1.770s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/package.ps1'
+[1.770s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/package.dsv'
+[1.772s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/package.sh'
+[1.773s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/package.bash'
+[1.775s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/phantom_control/package.zsh'
+[1.776s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/share/colcon-core/packages/phantom_control)
+[1.994s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/my_first_package' for CMake module files
+[1.994s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/alejandro/ros2_ws/phantom_ws/src/phantom_ex/my_first_package' returned '0': CONDA_PROMPT_MODIFIER=(ros_env) PYTHONPATH=/home/alejandro/ros2_ws/phantom_ws/build/my_first_package/prefix_override:/home/alejandro/.local/share/mamba/envs/ros_env/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandro/ros2_ws/phantom_ws/install/my_first_package/lib/python3.11/site-packages:${PYTHONPATH} /home/alejandro/.local/share/mamba/envs/ros_env/bin/python3.11 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/my_first_package build --build-base /home/alejandro/ros2_ws/phantom_ws/build/my_first_package/build install --record /home/alejandro/ros2_ws/phantom_ws/build/my_first_package/install.log --single-version-externally-managed install_data[0m
+[1.994s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/my_first_package' for CMake config files
+[1.996s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/my_first_package/lib'
+[1.996s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/my_first_package/bin'
+[1.996s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/my_first_package/lib/pkgconfig/my_first_package.pc'
+[1.996s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/my_first_package/lib/python3.11/site-packages'
+[1.996s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_first_package', 'pythonpath')
+[1.996s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alejandro/ros2_ws/phantom_ws/install/my_first_package/share/my_first_package/hook/pythonpath.ps1'
+[1.997s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/alejandro/ros2_ws/phantom_ws/install/my_first_package/share/my_first_package/hook/pythonpath.dsv'
+[1.998s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alejandro/ros2_ws/phantom_ws/install/my_first_package/share/my_first_package/hook/pythonpath.sh'
+[1.999s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alejandro/ros2_ws/phantom_ws/install/my_first_package/bin'
+[1.999s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(my_first_package)
+[1.999s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/my_first_package/share/my_first_package/package.ps1'
+[1.999s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/alejandro/ros2_ws/phantom_ws/install/my_first_package/share/my_first_package/package.dsv'
+[2.000s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/my_first_package/share/my_first_package/package.sh'
+[2.002s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/my_first_package/share/my_first_package/package.bash'
+[2.003s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alejandro/ros2_ws/phantom_ws/install/my_first_package/share/my_first_package/package.zsh'
+[2.004s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/alejandro/ros2_ws/phantom_ws/install/my_first_package/share/colcon-core/packages/my_first_package)
+[2.006s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[2.006s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[2.006s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[2.006s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[2.009s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[2.009s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/alejandro/ros2_ws/phantom_ws/install/local_setup.ps1'
+[2.014s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/alejandro/ros2_ws/phantom_ws/install/_local_setup_util_ps1.py'
+[2.018s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/alejandro/ros2_ws/phantom_ws/install/setup.ps1'
+[2.021s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/alejandro/ros2_ws/phantom_ws/install/local_setup.sh'
+[2.024s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/alejandro/ros2_ws/phantom_ws/install/_local_setup_util_sh.py'
+[2.026s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/alejandro/ros2_ws/phantom_ws/install/setup.sh'
+[2.033s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/alejandro/ros2_ws/phantom_ws/install/local_setup.bash'
+[2.035s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/alejandro/ros2_ws/phantom_ws/install/setup.bash'
+[2.038s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/alejandro/ros2_ws/phantom_ws/install/local_setup.zsh'
+[2.040s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/alejandro/ros2_ws/phantom_ws/install/setup.zsh'

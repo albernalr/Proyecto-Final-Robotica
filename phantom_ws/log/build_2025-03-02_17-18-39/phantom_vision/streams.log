@@ -1,0 +1,4 @@
+[0.032s] Invoking command in '/home/alejandro/ros2_ws/phantom_ws/build/phantom_vision': CONDA_PROMPT_MODIFIER=(ros_env) /home/alejandro/.local/share/mamba/envs/ros_env/bin/cmake --build /home/alejandro/ros2_ws/phantom_ws/build/phantom_vision -- -j8 -l8
+[0.130s] [ 50%] [32mBuilding CXX object CMakeFiles/ball_finder.dir/src/ball_finder.cpp.o[0m
+[12.525s] [100%] [32m[1mLinking CXX executable ball_finder[0m
+[12.998s] [100%] Built target ball_finder

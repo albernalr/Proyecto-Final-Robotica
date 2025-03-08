@@ -1,0 +1,4 @@
+[console_scripts]
+dynamixel = my_first_package.PhantomXController:main
+my_node = my_first_package.my_node:main
+reader = my_first_package.xbox_controller_reader:main
