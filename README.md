@@ -180,22 +180,11 @@ Estas coordenadas pasan por la cinemática inversa y se obtienen los grados en r
 
 ### Asignación de Controles:
 
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
-
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
-
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
-
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
+- Eje X de la palanca izquierda: controla la coordenada X del efector final.
+- Eje Y de la palanca izquierda: controla la coordenada Y.
+- Eje Y de la palanca derecha: controla la coordenada Z.
+- Botones X e Y: controlan el ángulo phi.
+- Botones A y B: controlan el motor 5 para abrir y cerrar el efector final.
 
 El control se realiza mediante posición y cinemática inversa, pero dado que el incremento en cada coordenada depende de la inclinación de la palanca del mando, se puede decir que la velocidad del efector final varía en función de esta inclinación.
 
@@ -295,11 +284,13 @@ flowchart TD
     M --> N(Fin del proceso)
 ```
 ### Plano de planta y descripción de la teleoperación.
+ - Dos computadoras conectadas en red local (LAN).
+ - Computadora 1 (Zona Local - Maestro):  Donde el operador controla y supervisa el proceso. El operador puede seleccionar entre operación automática y manual mediante una interfaz de usuario y controlar la zona remota con un joystick. En la operación manual, el joystick permite modificar la posición (x, y, z) del efector final y reorientarlo, manteniendo una posición fija, además de abrir y cerrar el gripper con un botón.
+ - Computadora 2 (Zona Remota): Ejecuta la simulación virtual del proceso Pick & Place en CoppeliaSim dentro de ROS.
 
- Markup :* Bullet list
-           * Nested bullet
-              * Sub-nested bullet etc
-        * Bullet list item 2
+ - Comunicación: La computadora 1 envía instrucciones y datos a la computadora 2 a través de la conexión LAN, permitiendo el control de la simulación en tiempo real.
+ - Simulación: La estación de Pick & Place simulada estará en una computadora remota, posiblemente ejecutándose en Rviz. La simulación debe incluir objetos sólidos para que el robot los manipule.
+ - Operación Automática: El usuario puede ejecutar rutinas predefinidas o trayectorias programadas para tareas repetitivas. El usuario selecciona el punto de salida deseado a través de una interfaz gráfica en el equipo local y rutinas preprogramadas transportan el material
 
 ### Código en Matlab o Python de la solución.
 
