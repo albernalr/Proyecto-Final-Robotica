@@ -1,8 +1,8 @@
 # Informe final Robotica
 
-## Tabla de párametros DH y cinemática Directa (incluye un reultado númerico).
+## Tabla de párametros DH y cinemática Directa 
 
-Obtenidas mediante el RVCToolbox de PeterCorke
+Parametros Dh del manipulador antropomorfo phantom x
 ```
 %% MODELO DEL ROBOT CON ROBOTICS TOOLBOX
 L1 = Link('d', 0.137, 'a', 0, 'alpha', -pi/2, 'offset', 0);
@@ -11,7 +11,7 @@ L3 = Link('d', 0, 'a', 0.105, 'alpha', 0, 'offset', 0);
 L4 = Link('d', 0, 'a', 0.110, 'alpha', 0, 'offset', 0);
 ```
 
-## Cálculo de la Cinemática Inversa del pincher (incluye un resultado númerico).
+## Cálculo de la Cinemática Inversa del pincher
 
 El cálculo fue realizado utilizando este código en MATLAB.
 
