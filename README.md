@@ -73,6 +73,10 @@ function [theta_0, theta_1, theta_2, theta_3] = inverse_kinematics(X, Y, Z, phi)
     theta_3 = -theta_3;
 end
 ```
+Posteriormente se convirtio a python para poder correrlo directamente sobre el nodo:
+```
+
+```
 ## Descripción de la solución creada, el proceso de preparación y programación (hay que ser detallado, podemos usar los vídeos del whatsapp en esta parte).
 
 # Control y Simulación del PhantomX con ROS2
@@ -164,6 +168,9 @@ El nodo comienza enviando todas las configuraciones iniciales a cada motor, lo c
 También se agregaron verificaciones de conexión con el puerto y métodos para cerrar correctamente el nodo.
 
 ## Simulación en CoppeliaSim
+
+![image](https://github.com/user-attachments/assets/7f317a66-60b2-426a-979a-3f9ae305d126)
+
 
 CoppeliaSim se encarga de escuchar el mismo nodo y ejecutar la simulación en simultáneo. De esta manera, se obtiene una simulación en vivo que permite la teleoperación del PhantomX.
 
