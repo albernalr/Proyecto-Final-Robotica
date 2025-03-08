@@ -2,7 +2,7 @@
 
 ### Tabla de párametros DH y cinemática Directa (incluye un reultado númerico).
 
-asds
+Obtenidas mediante el RVCToolbox de PeterCorke
 ```
 %% MODELO DEL ROBOT CON ROBOTICS TOOLBOX
 L1 = Link('d', 0.137, 'a', 0, 'alpha', -pi/2, 'offset', 0);
@@ -13,6 +13,7 @@ L4 = Link('d', 0, 'a', 0.110, 'alpha', 0, 'offset', 0);
 
 ### Cálculo de la Cinemática Inversa del pincher (incluye un resultado númerico).
 
+El cálculo fue realizaddo utilizando este código en MATLAB.
 
 ```
 function [theta_0, theta_1, theta_2, theta_3] = inverse_kinematics(X, Y, Z, phi)
@@ -103,4 +104,11 @@ flowchart TD
 ### Plano de planta y descripción de la teleoperación.
 ### Código en Matlab o Python de la solución.
 ### Comparación objetiva de la teleoperación manual y automática realizada los robots.
+
+|Teleoperación Manual|Operación Automática|
+|---|---|
+|Requiere al operador en todo momento|No requiere que ningún operador este presente para que se ejecute|
+|require mayor poder computacional|requiere menos capacidad por parte de la computadora|
+|el joystick opera manipulando la velocidad|el usuario selecciona un punto de salida y la rutina preprogamada hace el resto|
+
 ### Vídeo de la implementación (Incluir la intro del LabSIR: https://drive.google.com/file/d/1wSxw7m7n5hXOtkc8C0H0lLAxTx3BqQSe/view).
