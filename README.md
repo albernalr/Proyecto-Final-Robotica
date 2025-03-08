@@ -27,7 +27,7 @@ Se presenta la descomposición geométrica para un brazo robótico de 4 GDL (Gra
 ## Paso 1: Cálculo de θ₀ (Junta Base)
 **Objetivo:** Alinear el plano de trabajo con la posición objetivo (X,Y,Z).
 
-```matlab
+```
 theta_0 = atan2(Y, X)
 
 theta0
@@ -36,8 +36,7 @@ Se proyecta la posición objetivo al plano XY. θ₀ es el ángulo entre el eje 
 Paso 2: Sistema de Coordenadas Relativo
 
 Se traslada el problema a un sistema 2D en el plano vertical que contiene al efector final.
-matlab
-Copy
+
 ```
 xb = sqrt(X² + Y²)  % Proyección horizontal
 yb = Z - a0          % Altura relativa desde la base
@@ -75,8 +74,7 @@ theta_1_alt = alpha - beta_alt  % Configuración alternativa
 Paso 6: Cálculo de θ₃ (Orientación)
 
 Se garantiza que la orientación final (phi) sea alcanzada:
-matlab
-Copy
+
 ```
 theta_3 = phi1 - theta_1 - theta_2  % Relación angular acumulativa 
 ```
