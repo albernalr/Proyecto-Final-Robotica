@@ -645,4 +645,5 @@ if __name__ == '__main__':
 
 ### Vídeo de la implementación
 
-![link text]( https://www.youtube.com/watch?v=nBLXaNm133w&ab_channel=JuanDicaprio-GuillermoDelToroProfesores)
+[![Video](https://img.youtube.com/vi/nBLXaNm133w/0.jpg)](https://www.youtube.com/watch?v=nBLXaNm133w)
+
