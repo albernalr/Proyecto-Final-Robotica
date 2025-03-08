@@ -1,1 +1,0 @@
-/home/alejandro/ros2_ws/phantom_ws/install/phantom_control/lib/libphantom_control.so
