@@ -1,7 +1,7 @@
 # Informe final Robotica
-##Alejandro Bernal Rubiano
-##Jose Alejandro Rosero Rodriguez
-##Guillermo Alejandro cano
+# Alejandro Bernal Rubiano
+# Jose Alejandro Rosero Rodriguez
+# Guillermo Alejandro cano
 
 ## Tabla de párametros DH y cinemática Directa 
 
