@@ -102,6 +102,23 @@ flowchart TD
     M --> N(Fin del proceso)
 ```
 ### Plano de planta y descripción de la teleoperación.
+
+Markup : *Configuración: Se establece una conexión de red local (LAN) entre dos computadoras. La Computadora 1 (zona local/maestro) es donde se encuentra el operador que controla y supervisa el proceso. La Computadora 2 (zona remota) ejecuta la simulación virtual del proceso Pick & Place.
+
+*Comunicación: La Computadora 1 envía instrucciones y datos a la Computadora 2 a través de la conexión LAN, lo que permite al operador controlar la simulación en tiempo real desde la zona local
+
+¿Interfaz de Usuario: En la zona local, el operador puede seleccionar entre los modos de operación a través de una interfaz de usuario. Se utiliza un joystick para controlar la zona remota.
+
+*Simulación: En la zona remota, se ejecuta una simulación en CoppeliaSim dentro de ROS, representando la estación con el robot Phantom, que recibe información de la zona local.
+
+*Operación Manual: El usuario controla el robot en tiempo real con un joystick, cambiando la posición y orientación de manera intuitiva. El joystick permite modificar la posición (x, y, z) del efector final del robot y realizar la reorientación, manteniendo una posición fija. Además, se implementa una función para abrir y cerrar el gripper usando un botón en el joystick. El joystick opera en modo de velocidad, donde la posición del stick es proporcional al delta de desplazamiento.
+*
+Cámara Virtual: Se implementa una cámara virtual en la simulación para proporcionar una visualización del robot al usuario en el punto de acceso local
+*
+Interfaz Gráfica Remota: La interfaz gráfica en el punto de acceso remoto incluye botones para iniciar y detener el proceso, indicadores del estado del proceso y el modo (manual/automático), representación de la posición actual del robot, visualización de la cámara y selector de modo y trayectoria.
+*
+Entorno de Simulación: La simulación debe incluir objetos sólidos que el robot pueda manipular.
+
 ### Código en Matlab o Python de la solución.
 
 Implementación en Python de la solución al proyecto
