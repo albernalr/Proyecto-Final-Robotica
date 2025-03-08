@@ -13,8 +13,74 @@ L4 = Link('d', 0, 'a', 0.110, 'alpha', 0, 'offset', 0);
 
 ## Cálculo de la Cinemática Inversa del pincher
 
-El cálculo fue realizado utilizando este código en MATLAB.
+Se presenta la descomposición geométrica para un brazo robótico de 4 GDL (Grados de Libertad) con configuración planar. Se asume una geometría tipo **RRR** con una junta rotacional base.
 
+## Parámetros del Robot
+- `a0`: Altura de la base (0.137m)
+- `a1`: Longitud del primer eslabón (0.105m)
+- `a2`: Longitud del segundo eslabón (0.105m)
+- `a3`: Longitud del efector final (0.110m)
+- `phi`: Orientación deseada del efector final (en grados)
+
+
+
+## Paso 1: Cálculo de θ₀ (Junta Base)
+**Objetivo:** Alinear el plano de trabajo con la posición objetivo (X,Y,Z).
+
+```matlab
+theta_0 = atan2(Y, X)
+
+theta0
+```
+Se proyecta la posición objetivo al plano XY. θ₀ es el ángulo entre el eje X y la proyección del punto (X,Y).
+Paso 2: Sistema de Coordenadas Relativo
+
+Se traslada el problema a un sistema 2D en el plano vertical que contiene al efector final.
+matlab
+Copy
+```
+xb = sqrt(X² + Y²)  % Proyección horizontal
+yb = Z - a0          % Altura relativa desde la base
+```
+Paso 3: Posición de la Muñeca (Wrist Point)
+
+Se calcula la posición de la articulación antes del efector final (punto A):
+
+```
+phi1 = -deg2rad(phi)  % Orientación corregida
+xa = xb - a3*cos(phi1)
+ya = yb - a3*sin(phi1)
+```
+
+Paso 4: Ley de Cosenos para θ₂
+
+Se forma un triángulo con lados a1, a2 y distancia D = ||(xa, ya)||:
+
+```
+D = sqrt(xa² + ya²)
+cos_theta2 = (D² - a1² - a2²)/(2*a1*a2)
+theta_2 = ±acos(cos_theta2)  % Dos soluciones: codo arriba/abajo
+```
+Paso 5: Cálculo de θ₁
+
+Se utilizan relaciones trigonométricas en el triángulo:
+
+
+```
+alpha = atan2(ya, xa)  % Ángulo al punto A
+beta = atan2(a2*sin(theta_2), a1 + a2*cos(theta_2))  % Ángulo interno
+theta_1 = alpha - beta  % Configuración principal
+theta_1_alt = alpha - beta_alt  % Configuración alternativa
+```
+Paso 6: Cálculo de θ₃ (Orientación)
+
+Se garantiza que la orientación final (phi) sea alcanzada:
+matlab
+Copy
+```
+theta_3 = phi1 - theta_1 - theta_2  % Relación angular acumulativa 
+```
+La funcion completa en phyton seria:
 ```
 function [theta_0, theta_1, theta_2, theta_3] = inverse_kinematics(X, Y, Z, phi)
     % Longitudes de los eslabones
