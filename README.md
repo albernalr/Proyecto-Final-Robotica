@@ -1,6 +1,6 @@
 # Informe final Robotica
 
-### Tabla de párametros DH y cinemática Directa (incluye un reultado númerico).
+## Tabla de párametros DH y cinemática Directa (incluye un reultado númerico).
 
 Obtenidas mediante el RVCToolbox de PeterCorke
 ```
@@ -11,9 +11,9 @@ L3 = Link('d', 0, 'a', 0.105, 'alpha', 0, 'offset', 0);
 L4 = Link('d', 0, 'a', 0.110, 'alpha', 0, 'offset', 0);
 ```
 
-### Cálculo de la Cinemática Inversa del pincher (incluye un resultado númerico).
+## Cálculo de la Cinemática Inversa del pincher (incluye un resultado númerico).
 
-El cálculo fue realizaddo utilizando este código en MATLAB.
+El cálculo fue realizado utilizando este código en MATLAB.
 
 ```
 function [theta_0, theta_1, theta_2, theta_3] = inverse_kinematics(X, Y, Z, phi)
@@ -73,7 +73,7 @@ function [theta_0, theta_1, theta_2, theta_3] = inverse_kinematics(X, Y, Z, phi)
     theta_3 = -theta_3;
 end
 ```
-Posteriormente se convirtio a python para poder correrlo directamente sobre el nodo:
+Posteriormente se convirtió a python para poder correrlo directamente sobre el nodo:
 ```
 def inverse_kinematics(X, Y, Z, phi):
     # Longitudes de los eslabones
@@ -136,13 +136,13 @@ def inverse_kinematics(X, Y, Z, phi):
 ```
 ## Descripción de la solución creada, el proceso de preparación y programación (hay que ser detallado, podemos usar los vídeos del whatsapp en esta parte).
 
-# Control y Simulación del PhantomX con ROS2
+## Control y Simulación del PhantomX con ROS2
 
-## Descripción
+### Descripción
 
 Este documento describe el proceso de configuración y control del robot PhantomX mediante ROS2, empleando un joystick para la teleoperación y la simulación en CoppeliaSim.
 
-## Creación del Nodo Joy
+### Creación del Nodo Joy
 
 Lo primero fue crear un nodo de `joy` para obtener las posiciones de los análogos del joystick en cada instante y poder mapear todos los botones del control escogido.
 
@@ -161,7 +161,7 @@ Después de la instalación, se puede verificar su funcionamiento ejecutando:
 ros2 run joy joy_node
 ```
 
-## Nodo para Control y Cinemática Inversa
+### Nodo para Control y Cinemática Inversa
 
 Luego, se creó un nodo encargado de obtener las posiciones de los controles y publicar un tópico llamado `JointState` del tipo `/coppelia/joint_commands`.
 
@@ -179,15 +179,15 @@ phi = 45
 Estas coordenadas pasan por la cinemática inversa y se obtienen los grados en radianes que usará cada una de las articulaciones. Cada vez que se ejecuta el nodo con la función *callback*, se suman o restan los valores de la posición de los análogos (esta posición varía de -1 a 1).
 
 ### Asignación de Controles:
-- **Eje X de la palanca izquierda**: controla la coordenada X del efector final.
-- **Eje Y de la palanca izquierda**: controla la coordenada Y.
-- **Eje Y de la palanca derecha**: controla la coordenada Z.
-- **Botones X e Y**: controlan el ángulo phi.
-- **Botones A y B**: controlan el motor 5 para abrir y cerrar el efector final.
+Markup: - **Eje X de la palanca izquierda**: controla la coordenada X del efector final.
+        - **Eje Y de la palanca izquierda**: controla la coordenada Y.
+        - **Eje Y de la palanca derecha**: controla la coordenada Z.
+        - **Botones X e Y**: controlan el ángulo phi.
+        - **Botones A y B**: controlan el motor 5 para abrir y cerrar el efector final.
 
 El control se realiza mediante posición y cinemática inversa, pero dado que el incremento en cada coordenada depende de la inclinación de la palanca del mando, se puede decir que la velocidad del efector final varía en función de esta inclinación.
 
-## Nodo PhantomXController
+##· Nodo PhantomXController
 
 Una vez publicado el tópico con las posiciones de cada motor, se crea un nuevo nodo llamado `PhantomXController`, el cual se encarga de enviar los datos mediante la librería `Dynamixel SDK`.
 
@@ -284,21 +284,15 @@ flowchart TD
 ```
 ### Plano de planta y descripción de la teleoperación.
 
-Markup : *Configuración: Se establece una conexión de red local (LAN) entre dos computadoras. La Computadora 1 (zona local/maestro) es donde se encuentra el operador que controla y supervisa el proceso. La Computadora 2 (zona remota) ejecuta la simulación virtual del proceso Pick & Place.
-
-*Comunicación: La Computadora 1 envía instrucciones y datos a la Computadora 2 a través de la conexión LAN, lo que permite al operador controlar la simulación en tiempo real desde la zona local
-
-¿Interfaz de Usuario: En la zona local, el operador puede seleccionar entre los modos de operación a través de una interfaz de usuario. Se utiliza un joystick para controlar la zona remota.
-
-*Simulación: En la zona remota, se ejecuta una simulación en CoppeliaSim dentro de ROS, representando la estación con el robot Phantom, que recibe información de la zona local.
-
-*Operación Manual: El usuario controla el robot en tiempo real con un joystick, cambiando la posición y orientación de manera intuitiva. El joystick permite modificar la posición (x, y, z) del efector final del robot y realizar la reorientación, manteniendo una posición fija. Además, se implementa una función para abrir y cerrar el gripper usando un botón en el joystick. El joystick opera en modo de velocidad, donde la posición del stick es proporcional al delta de desplazamiento.
-*
-Cámara Virtual: Se implementa una cámara virtual en la simulación para proporcionar una visualización del robot al usuario en el punto de acceso local
-*
-Interfaz Gráfica Remota: La interfaz gráfica en el punto de acceso remoto incluye botones para iniciar y detener el proceso, indicadores del estado del proceso y el modo (manual/automático), representación de la posición actual del robot, visualización de la cámara y selector de modo y trayectoria.
-*
-Entorno de Simulación: La simulación debe incluir objetos sólidos que el robot pueda manipular.
+Markup : 
+-Configuración: Se establece una conexión de red local (LAN) entre dos computadoras. La Computadora 1 (zona local/maestro) es donde se encuentra el operador que controla y supervisa el proceso. La Computadora 2 (zona remota) ejecuta la simulación virtual del proceso Pick & Place.
+-Comunicación: La Computadora 1 envía instrucciones y datos a la Computadora 2 a través de la conexión LAN, lo que permite al operador controlar la simulación en tiempo real desde la zona local
+-¿Interfaz de Usuario: En la zona local, el operador puede seleccionar entre los modos de operación a través de una interfaz de usuario. Se utiliza un joystick para controlar la zona remota.
+-Simulación: En la zona remota, se ejecuta una simulación en CoppeliaSim dentro de ROS, representando la estación con el robot Phantom, que recibe información de la zona local.
+-Operación Manual: El usuario controla el robot en tiempo real con un joystick, cambiando la posición y orientación de manera intuitiva. El joystick permite modificar la posición (x, y, z) del efector final del robot y realizar la reorientación, manteniendo una posición fija. Además, se implementa una función para abrir y cerrar el gripper usando un botón en el joystick. El joystick opera en modo de velocidad, donde la posición del stick es proporcional al delta de desplazamiento.
+-Cámara Virtual: Se implementa una cámara virtual en la simulación para proporcionar una visualización del robot al usuario en el punto de acceso local
+-Interfaz Gráfica Remota: La interfaz gráfica en el punto de acceso remoto incluye botones para iniciar y detener el proceso, indicadores del estado del proceso y el modo (manual/automático), representación de la posición actual del robot, visualización de la cámara y selector de modo y trayectoria.
+-Entorno de Simulación: La simulación debe incluir objetos sólidos que el robot pueda manipular.
 
 ### Código en Matlab o Python de la solución.
 
