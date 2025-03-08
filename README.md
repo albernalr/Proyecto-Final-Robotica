@@ -351,7 +351,13 @@ flowchart TD
     L --> M(Visualización de Cámara)
     M --> N(Fin del proceso)
 ```
-### Plano de planta y descripción de la teleoperación.
+## Plano de planta y descripción de la teleoperación.
+
+### Plano de planta
+
+![image](https://drive.google.com/file/d/11wuLGXNikTt8SGKUh1ijRuIhXU-rDCra/view?usp=drive_link)
+
+### descripción de la teleoperación
  - Dos computadoras conectadas en red local (LAN).
  - Computadora 1 (Zona Local - Maestro):  Donde el operador controla y supervisa el proceso. El operador puede seleccionar entre operación automática y manual mediante una interfaz de usuario y controlar la zona remota con un joystick. En la operación manual, el joystick permite modificar la posición (x, y, z) del efector final y reorientarlo, manteniendo una posición fija, además de abrir y cerrar el gripper con un botón.
  - Computadora 2 (Zona Remota): Ejecuta la simulación virtual del proceso Pick & Place en CoppeliaSim dentro de ROS.
