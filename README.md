@@ -570,6 +570,6 @@ if __name__ == '__main__':
 |require mayor poder computacional|requiere menos capacidad por parte de la computadora|
 |el joystick opera manipulando la velocidad|el usuario selecciona un punto de salida y la rutina preprogamada hace el resto|
 
-### Vídeo de la implementación (Incluir la ![intro del LabSIR:](https://drive.google.com/file/d/1wSxw7m7n5hXOtkc8C0H0lLAxTx3BqQSe/view)).
+### Vídeo de la implementación
 
 ![Vídeo del proyecto](https://www.youtube.com/watch?v=VTimMgNupZ8&ab_channel=JuanDicaprio-GuillermoDelToroProfesores)
